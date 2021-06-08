@@ -29,6 +29,21 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
+    <!--黄剑：个人添加的给指定文章增加阅读权限的脚本-->
+    <!--
+    <script>
+        (function(){
+            if('{{ page.password }}'){
+                if (prompt('请输入文章密码：') !== '{{ page.password }}'){
+                    alert('密码错误！');
+                    history.back();
+                }
+            }
+        })();
+    </script>
+
+    -->
+
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 
@@ -380,11 +395,11 @@
                 </a>
                 
                 
-                <a href="/categories/%E6%97%A5%E5%B8%B8/" title="日常: 1">
+                <a href="/categories/%E6%97%A5%E5%B8%B8/" title="日常: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #D5F5E3;">日常
-                        <span class="tag-length">1</span>
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 

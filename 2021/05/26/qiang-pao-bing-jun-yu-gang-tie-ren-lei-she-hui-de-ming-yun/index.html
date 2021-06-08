@@ -29,6 +29,21 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
+    <!--黄剑：个人添加的给指定文章增加阅读权限的脚本-->
+    <!--
+    <script>
+        (function(){
+            if('{{ page.password }}'){
+                if (prompt('请输入文章密码：') !== '{{ page.password }}'){
+                    alert('密码错误！');
+                    history.back();
+                }
+            }
+        })();
+    </script>
+
+    -->
+
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 
@@ -307,6 +322,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -595,7 +623,7 @@
 <blockquote>
 <p>&ensp;&ensp; 爱迪生的1879年10月21日夜间著名的白炽灯泡的“发明”，只是对从1841年到1878年的其他发明者获得专利权的其他许多白炽灯泡的改进。</p>
 </blockquote>
-<h3 id="发明常常是需要之母，而不是相反"><a href="#发明常常是需要之母，而不是相反" class="headerlink" title="发明常常是需要之母，而不是相反"></a>发明常常是需要之母，而不是相反</h3><p>被用作我们讨论的起始点的关于发明的常识性观战，把发明的通常作用和需要弄颠倒了。它也夸大了诸如瓦特和爱迪生之类稀有天才的重要性。技术在发明出来后大部分都得到了使用，而不是发明出来云满足某种预见到的需要。</p>
+<h3 id="发明常常是需要之母，而不是相反"><a href="#发明常常是需要之母，而不是相反" class="headerlink" title="发明常常是需要之母，而不是相反"></a>发明常常是需要之母，而不是相反</h3><p>被用作我们讨论的起始点的关于发明的常识性观战，把发明的通常作用和需要弄颠倒了。它也夸大了诸如瓦特和爱迪生之类稀有天才的重要性。技术在发明出来后大部分都得到了使用，而不是发明出来去满足某种预见到的需要。</p>
 <blockquote>
 <p>&ensp;&ensp; 在过了大约20年之后，爱迪生才勉勉强强地承认他的留声机的主要用途是录放音乐。</p>
 </blockquote>

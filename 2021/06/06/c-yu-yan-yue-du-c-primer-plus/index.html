@@ -29,6 +29,21 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
+    <!--黄剑：个人添加的给指定文章增加阅读权限的脚本-->
+    <!--
+    <script>
+        (function(){
+            if('{{ page.password }}'){
+                if (prompt('请输入文章密码：') !== '{{ page.password }}'){
+                    alert('密码错误！');
+                    history.back();
+                }
+            }
+        })();
+    </script>
+
+    -->
+
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 
@@ -307,6 +322,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -738,51 +766,45 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/06/06/c-yu-yan-yue-du-c-primer-plus/">
+                <a href="/2021/06/08/wo-de-ri-ke/">
                     <div class="card-image">
                         
-                        <img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/C_Primer_Plus_6th/c_primer_plus_6th.jpg" class="responsive-img" alt="C语言：阅读《C Primer Plus》">
+                        <img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E6%97%A5%E8%AF%BE/%E6%94%80%E7%99%BB.jpeg" class="responsive-img" alt="我的日课">
                         
-                        <span class="card-title">C语言：阅读《C Primer Plus》</span>
+                        <span class="card-title">我的日课</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            生命不息
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-06
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-06-08
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/CS/" class="post-category">
-                                    CS
+                            <a href="/categories/%E6%97%A5%E5%B8%B8/" class="post-category">
+                                    日常
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">读书笔记</span>
-                    </a>
-                    
-                    <a href="/tags/C/">
-                        <span class="chip bg-color">C</span>
+                    <a href="/tags/%E6%97%A5%E8%AE%B0-%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/">
+                        <span class="chip bg-color">日记 个人管理</span>
                     </a>
                     
                 </div>
