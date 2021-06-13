@@ -1,8 +1,14 @@
 /* Here is your custom css styles. */
 span.logo-span {
     font-family: 'Lobster', cursive;
+    color:yellow;
 }
 
 body ul li span {
     font-family: 'HarmonyOS Sans SC Medium';
+}
+
+
+#artDetail {
+    font-family: 'HarmonyOS Sans SC Regular';
 }
