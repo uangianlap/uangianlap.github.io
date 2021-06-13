@@ -1,1 +1,13 @@
 /* Here is your custom css styles. */
+span.logo-span {
+    font-family: 'Lobster', cursive;
+}
+
+
+@font-face {
+    font-family: 'Tanugo-S-TTF-Regular';
+    src: url('/source/diy-font/Tanugo-S-TTF-Regular.ttf');
+}
+body {
+    font-family: 'Tanugo-S-TTF-Regular';
+}
