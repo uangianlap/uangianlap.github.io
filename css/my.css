@@ -2,3 +2,7 @@
 span.logo-span {
     font-family: 'Lobster', cursive;
 }
+
+body ul li span {
+    font-family: 'HarmonyOS Sans SC Medium';
+}
