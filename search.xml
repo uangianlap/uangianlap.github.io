@@ -45,7 +45,9 @@
       
         <tags>
             
-            <tag> 读书笔记 历史 </tag>
+            <tag> 读书笔记 </tag>
+            
+            <tag> 历史 </tag>
             
         </tags>
       
@@ -70,7 +72,11 @@
       
         <tags>
             
-            <tag> 读书笔记 世界观 宇宙观 </tag>
+            <tag> 读书笔记 </tag>
+            
+            <tag> 世界观 </tag>
+            
+            <tag> 宇宙观 </tag>
             
         </tags>
       
@@ -172,7 +178,9 @@
       
         <tags>
             
-            <tag> 日记 个人管理 </tag>
+            <tag> 日记 </tag>
+            
+            <tag> 个人管理 </tag>
             
         </tags>
       
@@ -226,8 +234,6 @@
             
             <tag> 电影 </tag>
             
-            <tag> 日记 </tag>
-            
         </tags>
       
     </entry>
@@ -251,7 +257,9 @@
       
         <tags>
             
-            <tag> 读书笔记 人类史 </tag>
+            <tag> 读书笔记 </tag>
+            
+            <tag> 人类史 </tag>
             
         </tags>
       
