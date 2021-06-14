@@ -4,8 +4,13 @@ span.logo-span {
     color:yellow;
 } 
 
+body ul li i {
+    color: darkgrey;
+}
+
 body ul li span {
     font-family: '宋体';
+    color: darkgrey;
 }
 
 
