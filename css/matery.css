@@ -592,7 +592,7 @@ header .go-back i {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: #eee;
+    color:#128C6F;
 }
 
 .bg-cover .post-title {
@@ -1174,6 +1174,7 @@ article .article-tags .chip {
     margin: 2px 2px 10px;
     font-size: 1.05rem;
     line-height: 1.85rem;
+    color: #138D70;
 }
 
 #articleContent blockquote p {
