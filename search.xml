@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>git基础命令与使用方法</title>
+      <link href="2021/06/28/git-ji-chu-ming-ling-yu-shi-yong-fang-fa/"/>
+      <url>2021/06/28/git-ji-chu-ming-ling-yu-shi-yong-fang-fa/</url>
+      
+        <content type="html"><![CDATA[<h2 id="安装与配置git"><a href="#安装与配置git" class="headerlink" title="安装与配置git"></a>安装与配置git</h2><p><code>$ sudo apt-get install git</code></p><p>本机所有git仓库的配置信息：<br><code>$ git config --global user.name &quot;YOUR NAME&quot;</code><br><code>$ git config --global user.email &quot;email@example.com&quot;</code></p><h2 id="创建版本仓库"><a href="#创建版本仓库" class="headerlink" title="创建版本仓库"></a>创建版本仓库</h2><p><code>$ mkdir code</code><br><code>$ cd code</code><br><code>git init</code>   #将这个目录变成git仓库</p><h2 id="在版本库中添加并提交新文件-例如文件名为：code-readme-txt"><a href="#在版本库中添加并提交新文件-例如文件名为：code-readme-txt" class="headerlink" title="在版本库中添加并提交新文件(例如文件名为：code/readme.txt)"></a>在版本库中添加并提交新文件(例如文件名为：code/readme.txt)</h2><p><code>$ git add readme.txt</code><br><code>$ git commit -m &quot;add a readme.txt file&quot;</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 💻 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>《牛奶可乐经济学》</title>
       <link href="2021/06/27/niu-nai-ke-le-jing-ji-xue/"/>
       <url>2021/06/27/niu-nai-ke-le-jing-ji-xue/</url>
       
-        <content type="html"><![CDATA[<h2 id="成本效益原则"><a href="#成本效益原则" class="headerlink" title="成本效益原则"></a>成本效益原则</h2><blockquote><p>&ensp;&ensp; 产品设计的功能要符合成本效益原则。该原则认为，当且仅当收益不低于成本，才应采取行动。因此，只有收益（以愿意支付额外费用的消费者数量来衡量）不低于成本（以增加某一功能所能吸引的额外消费者数量来衡量）的时候，才应当增设某一产品功能。</p></blockquote><h3 id="为什么牛奶装方盒子，可乐却装圆瓶子？"><a href="#为什么牛奶装方盒子，可乐却装圆瓶子？" class="headerlink" title="为什么牛奶装方盒子，可乐却装圆瓶子？"></a>为什么牛奶装方盒子，可乐却装圆瓶子？</h3><p>&ensp;&ensp; 最重要的原因是存储成本。牛奶装方盒子能更有效率地使用冰柜，降低存储成本。</p><h3 id="历史源流、习惯也是成本的因素之一"><a href="#历史源流、习惯也是成本的因素之一" class="headerlink" title="历史源流、习惯也是成本的因素之一"></a>历史源流、习惯也是成本的因素之一</h3><p>&ensp;&ensp; 例如女装的扣子在右边、CD与黑胶唱片的尺寸</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="成本效益原则"><a href="#成本效益原则" class="headerlink" title="成本效益原则"></a>成本效益原则</h2><blockquote><p>&ensp;&ensp; 产品设计的功能要符合成本效益原则。该原则认为，当且仅当收益不低于成本，才应采取行动。因此，只有收益（以愿意支付额外费用的消费者数量来衡量）不低于成本（以增加某一功能所能吸引的额外消费者数量来衡量）的时候，才应当增设某一产品功能。</p></blockquote><h3 id="为什么牛奶装方盒子，可乐却装圆瓶子？"><a href="#为什么牛奶装方盒子，可乐却装圆瓶子？" class="headerlink" title="为什么牛奶装方盒子，可乐却装圆瓶子？"></a>为什么牛奶装方盒子，可乐却装圆瓶子？</h3><p>&ensp;&ensp; 最重要的原因是存储成本。牛奶装方盒子能更有效率地使用冰柜，降低存储成本。</p><h3 id="历史源流、习惯也是成本的因素之一"><a href="#历史源流、习惯也是成本的因素之一" class="headerlink" title="历史源流、习惯也是成本的因素之一"></a>历史源流、习惯也是成本的因素之一</h3><p>&ensp;&ensp; 例如女装的扣子在右边、CD与黑胶唱片宽度，vhs录像带与DVD高度保持一致、qwert</p>]]></content>
       
       
       <categories>
@@ -470,7 +495,7 @@
       <link href="2021/06/08/wo-de-ri-ke/"/>
       <url>2021/06/08/wo-de-ri-ke/</url>
       
-        <content type="html"><![CDATA[<p>常用图标：<br>📚 📽️ 🎬 📺 📅 💽 🎽 🏀 </p><p><strong>2021-06-27</strong><br>✔️ 美剧《硅谷》第二季1~9<br>✔️ 阅读《列奥纳多·达芬奇传》 50页</p><p><strong>2021-06-26</strong><br>✔️ 美剧《硅谷》第一季 4~8 集 英语听力<br>✔️ 阅读《列奥那多·达·芬奇传》50页<br>❌ 阅读《巴菲特传》第16章<br>✔️ 运动健身：跑步5km+<br>❌ 戒色 002天</p><p><strong>2021-06-25</strong><br>✔️ 美剧《硅谷》第一季1~3集    英语听力<br>✔️ 阅读《万历十五年》第七章<br>✔️ 运动跑步 5Km+<br>✔️ 电影《国王的演讲》<br>✔️ 戒色001天</p><p><strong>2021-06-24</strong><br>✔️ 阅读《巴菲特传》15章<br>✔️ 阅读《万历十五年》第六章<br>❌ 电影 《公民凯恩》<br>❌ 戒色 002天 </p><p><strong>2021-06-23</strong><br>✔️ 阅读《巴菲特传》12~14章<br>✔️ 电影《逃离德黑兰》《无耻混蛋》<br>✔️ 戒色 001天</p><p><strong>2021-06-22</strong><br>✔️ 阅读《巴菲特传》9~11章<br>✔️ 纪录片 《成为巴菲特》<br>✔️ 电影《银翼杀手》<br>❌ 戒淫 002天</p><p><strong>2021-06-21</strong><br>✔️ 阅读《巴菲特传》第7~8章<br>✔️ 电影《甜蜜蜜》1996<br>✔️ 运动健身：跑步6公里 + 平板撑<br>✔️戒色 001天</p><p><strong>2021-06-20</strong><br>✔️ 阅读《巴菲特传》第3<del>5章<br>❌ 戒淫 002天<br><strong>2021-06-19</strong><br>✔️ 阅读《巴菲特传》第1</del>2章<br>✔️ 戒淫 001天</p><p><strong>2021-06-18</strong><br>✔️ 阅读完《月亮与六便士》<br>✔️ 阅读《万历十五年》第五章<br>✔️ 开始阅读《巴菲特传》<br>❌ 戒淫 002天<br><strong>2021-06-17</strong><br>✔️ 阅读《月亮与六便士》35章~47章<br>✔️ 阅读《万历十五年》第四章 活着的祖宗<br>阅读《真实世界的脉络》<br>✔️ 健身：跑步5公里+<br>✔️ 戒淫001天</p><p><strong>2021-06-16</strong><br>✔️ 阅读《月亮与六便士》11~34章<br>❌ 戒淫 002天</p><p><strong>2021-06-15</strong><br>✔️ 早起<br>✔️ 多喝水<br>✔️ 阅读《万历十五年》第三章<br>✔️ 阅读《月亮与六便士》第四章~第十章<br>   英语 BBC 听力练习<br>✔️ 健身：跑步5公里<br>✔️ 戒淫 001天<br>✔️ 早睡</p><p><strong>2021-06-14</strong><br>✔️ 阅读《万历十五年》第二章<br>✔️ 阅读《月亮与六便士》第一章 第二章 第三章<br>❌ 戒淫002天</p><p><strong>2021-06-13</strong><br>✔️ 阅读《万历十五年》第一章<br>阅读《枪炮、病菌与钢铁》第17章<br>阅读《真实世界的脉络》第3章<br>✔️ 戒淫：第001天<br>✔️ 早睡：22点</p><p><strong>2021-06-12</strong><br>✔️ 阅读《真实世界的脉络》第2章<br>✔️ 阅读《枪炮、病菌与钢铁》第16章<br>✔️ 运动健身<br>❌ 戒色：第3天<br>✔️ 早睡：22点</p><p><strong>2021-06-11</strong><br>✔️ 阅读《真实世界的脉络》第一章<br>❌ 阅读《深入理解计算机系统》第一章<br>✔️ 戒色：第2天<br>✔️ 早睡：22点</p><p><strong>2021-06-10</strong><br>❌ 早起 6点 （昨晚近凌晨1点睡，今早实际7:50左右起）<br>✔️ 跑步5公里+（实际5.29）<br>❌ 《深入理解计算机系统》第三版 第一章<br>✔️ WSL<br>✔️ 阅读《枪炮、病菌与钢铁：人类社会的命运》 第15章<br>✔️ 记录片《天地玄黄》<br>✔️ 阅读《真实世界的脉络》<br>✔️ 早睡（22点左右）<br>✔️ 戒色1天</p><p><strong>2021-06-09</strong><br>✔️ Hexo博客主页颜色修改<br>❌ 英语听力（EnglishPod 3~4）<br>✔️ 学习完《C Primer Plus》第6版 二、三章<br>❌ 阅读《枪炮、病菌与钢铁：人类社会的命运》 第15章<br>✔️ 电影《西部往事》</p><p><strong>2021-06-08</strong><br>✔️ 跑步5公里（实际完成6.49）6:06<del>6:40 + 洗漱冲澡<br>✔️ 英语听力（EnglishPod 1</del>2）<br>✔️ Hexo博客访问权限设置<br>✔️ 学习完《C Primer Plus》第6版第一章<br>✔️ 阅读《穷查理年鉴——财富之路》50页<br>✔️ 阅读《枪炮、病菌与钢铁》第14章</p>]]></content>
+        <content type="html"><![CDATA[<p>常用图标：<br>📚 📽️ 🎬 📺 📅 💽 🎽 🏀 💻</p><p><strong>2021-06-27</strong><br>✔️ 美剧《硅谷》第二季1~9<br>✔️ 阅读《列奥纳多·达芬奇传》 50页</p><p><strong>2021-06-26</strong><br>✔️ 美剧《硅谷》第一季 4~8 集 英语听力<br>✔️ 阅读《列奥那多·达·芬奇传》50页<br>❌ 阅读《巴菲特传》第16章<br>✔️ 运动健身：跑步5km+<br>❌ 戒色 002天</p><p><strong>2021-06-25</strong><br>✔️ 美剧《硅谷》第一季1~3集    英语听力<br>✔️ 阅读《万历十五年》第七章<br>✔️ 运动跑步 5Km+<br>✔️ 电影《国王的演讲》<br>✔️ 戒色001天</p><p><strong>2021-06-24</strong><br>✔️ 阅读《巴菲特传》15章<br>✔️ 阅读《万历十五年》第六章<br>❌ 电影 《公民凯恩》<br>❌ 戒色 002天 </p><p><strong>2021-06-23</strong><br>✔️ 阅读《巴菲特传》12~14章<br>✔️ 电影《逃离德黑兰》《无耻混蛋》<br>✔️ 戒色 001天</p><p><strong>2021-06-22</strong><br>✔️ 阅读《巴菲特传》9~11章<br>✔️ 纪录片 《成为巴菲特》<br>✔️ 电影《银翼杀手》<br>❌ 戒淫 002天</p><p><strong>2021-06-21</strong><br>✔️ 阅读《巴菲特传》第7~8章<br>✔️ 电影《甜蜜蜜》1996<br>✔️ 运动健身：跑步6公里 + 平板撑<br>✔️戒色 001天</p><p><strong>2021-06-20</strong><br>✔️ 阅读《巴菲特传》第3<del>5章<br>❌ 戒淫 002天<br><strong>2021-06-19</strong><br>✔️ 阅读《巴菲特传》第1</del>2章<br>✔️ 戒淫 001天</p><p><strong>2021-06-18</strong><br>✔️ 阅读完《月亮与六便士》<br>✔️ 阅读《万历十五年》第五章<br>✔️ 开始阅读《巴菲特传》<br>❌ 戒淫 002天<br><strong>2021-06-17</strong><br>✔️ 阅读《月亮与六便士》35章~47章<br>✔️ 阅读《万历十五年》第四章 活着的祖宗<br>阅读《真实世界的脉络》<br>✔️ 健身：跑步5公里+<br>✔️ 戒淫001天</p><p><strong>2021-06-16</strong><br>✔️ 阅读《月亮与六便士》11~34章<br>❌ 戒淫 002天</p><p><strong>2021-06-15</strong><br>✔️ 早起<br>✔️ 多喝水<br>✔️ 阅读《万历十五年》第三章<br>✔️ 阅读《月亮与六便士》第四章~第十章<br>   英语 BBC 听力练习<br>✔️ 健身：跑步5公里<br>✔️ 戒淫 001天<br>✔️ 早睡</p><p><strong>2021-06-14</strong><br>✔️ 阅读《万历十五年》第二章<br>✔️ 阅读《月亮与六便士》第一章 第二章 第三章<br>❌ 戒淫002天</p><p><strong>2021-06-13</strong><br>✔️ 阅读《万历十五年》第一章<br>阅读《枪炮、病菌与钢铁》第17章<br>阅读《真实世界的脉络》第3章<br>✔️ 戒淫：第001天<br>✔️ 早睡：22点</p><p><strong>2021-06-12</strong><br>✔️ 阅读《真实世界的脉络》第2章<br>✔️ 阅读《枪炮、病菌与钢铁》第16章<br>✔️ 运动健身<br>❌ 戒色：第3天<br>✔️ 早睡：22点</p><p><strong>2021-06-11</strong><br>✔️ 阅读《真实世界的脉络》第一章<br>❌ 阅读《深入理解计算机系统》第一章<br>✔️ 戒色：第2天<br>✔️ 早睡：22点</p><p><strong>2021-06-10</strong><br>❌ 早起 6点 （昨晚近凌晨1点睡，今早实际7:50左右起）<br>✔️ 跑步5公里+（实际5.29）<br>❌ 《深入理解计算机系统》第三版 第一章<br>✔️ WSL<br>✔️ 阅读《枪炮、病菌与钢铁：人类社会的命运》 第15章<br>✔️ 记录片《天地玄黄》<br>✔️ 阅读《真实世界的脉络》<br>✔️ 早睡（22点左右）<br>✔️ 戒色1天</p><p><strong>2021-06-09</strong><br>✔️ Hexo博客主页颜色修改<br>❌ 英语听力（EnglishPod 3~4）<br>✔️ 学习完《C Primer Plus》第6版 二、三章<br>❌ 阅读《枪炮、病菌与钢铁：人类社会的命运》 第15章<br>✔️ 电影《西部往事》</p><p><strong>2021-06-08</strong><br>✔️ 跑步5公里（实际完成6.49）6:06<del>6:40 + 洗漱冲澡<br>✔️ 英语听力（EnglishPod 1</del>2）<br>✔️ Hexo博客访问权限设置<br>✔️ 学习完《C Primer Plus》第6版第一章<br>✔️ 阅读《穷查理年鉴——财富之路》50页<br>✔️ 阅读《枪炮、病菌与钢铁》第14章</p>]]></content>
       
       
       <categories>

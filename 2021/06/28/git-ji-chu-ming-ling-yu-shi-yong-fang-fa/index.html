@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="《牛奶可乐经济学》, YellowSword">
+    <meta name="keywords" content="git基础命令与使用方法, YellowSword">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -19,7 +19,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>《牛奶可乐经济学》 | YellowSword</title>
+    <title>git基础命令与使用方法 | YellowSword</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -350,12 +350,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E7%89%9B%E5%A5%B6%E5%8F%AF%E4%B9%90%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E7%89%9B%E5%A5%B6%E5%8F%AF%E4%B9%90%E7%BB%8F%E6%B5%8E%E5%AD%A6-cover.jfif')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/git.jfif')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">《牛奶可乐经济学》</h1>
+                    <h1 class="description center-align post-title">git基础命令与使用方法</h1>
                 </div>
             </div>
         </div>
@@ -479,8 +479,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/">
-                                <span class="chip bg-color">经济学</span>
+                            <a href="/tags/git/">
+                                <span class="chip bg-color">git</span>
                             </a>
                         
                     </div>
@@ -491,8 +491,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%F0%9F%93%9A/" class="post-category">
-                                📚
+                            <a href="/categories/%F0%9F%92%BB/" class="post-category">
+                                💻
                             </a>
                         
                     </div>
@@ -504,7 +504,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-06-27
+                    2021-06-28
                 </div>
                 
 
@@ -525,11 +525,10 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="成本效益原则"><a href="#成本效益原则" class="headerlink" title="成本效益原则"></a>成本效益原则</h2><blockquote>
-<p>&ensp;&ensp; 产品设计的功能要符合成本效益原则。该原则认为，当且仅当收益不低于成本，才应采取行动。因此，只有收益（以愿意支付额外费用的消费者数量来衡量）不低于成本（以增加某一功能所能吸引的额外消费者数量来衡量）的时候，才应当增设某一产品功能。</p>
-</blockquote>
-<h3 id="为什么牛奶装方盒子，可乐却装圆瓶子？"><a href="#为什么牛奶装方盒子，可乐却装圆瓶子？" class="headerlink" title="为什么牛奶装方盒子，可乐却装圆瓶子？"></a>为什么牛奶装方盒子，可乐却装圆瓶子？</h3><p>&ensp;&ensp; 最重要的原因是存储成本。牛奶装方盒子能更有效率地使用冰柜，降低存储成本。</p>
-<h3 id="历史源流、习惯也是成本的因素之一"><a href="#历史源流、习惯也是成本的因素之一" class="headerlink" title="历史源流、习惯也是成本的因素之一"></a>历史源流、习惯也是成本的因素之一</h3><p>&ensp;&ensp; 例如女装的扣子在右边、CD与黑胶唱片宽度，vhs录像带与DVD高度保持一致、qwert</p>
+                <h2 id="安装与配置git"><a href="#安装与配置git" class="headerlink" title="安装与配置git"></a>安装与配置git</h2><p><code>$ sudo apt-get install git</code></p>
+<p>本机所有git仓库的配置信息：<br><code>$ git config --global user.name &quot;YOUR NAME&quot;</code><br><code>$ git config --global user.email &quot;email@example.com&quot;</code></p>
+<h2 id="创建版本仓库"><a href="#创建版本仓库" class="headerlink" title="创建版本仓库"></a>创建版本仓库</h2><p><code>$ mkdir code</code><br><code>$ cd code</code><br><code>git init</code>   #将这个目录变成git仓库</p>
+<h2 id="在版本库中添加并提交新文件-例如文件名为：code-readme-txt"><a href="#在版本库中添加并提交新文件-例如文件名为：code-readme-txt" class="headerlink" title="在版本库中添加并提交新文件(例如文件名为：code/readme.txt)"></a>在版本库中添加并提交新文件(例如文件名为：code/readme.txt)</h2><p><code>$ git add readme.txt</code><br><code>$ git commit -m &quot;add a readme.txt file&quot;</code></p>
 
                 
             </div>
@@ -556,7 +555,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://uangianlap.github.io/2021/06/27/niu-nai-ke-le-jing-ji-xue/">https://uangianlap.github.io/2021/06/27/niu-nai-ke-le-jing-ji-xue/</a>
+                    <a href="https://uangianlap.github.io/2021/06/28/git-ji-chu-ming-ling-yu-shi-yong-fang-fa/">https://uangianlap.github.io/2021/06/28/git-ji-chu-ming-ling-yu-shi-yong-fang-fa/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -594,8 +593,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/">
-                                    <span class="chip bg-color">经济学</span>
+                                <a href="/tags/git/">
+                                    <span class="chip bg-color">git</span>
                                 </a>
                             
                         </div>
@@ -1088,9 +1087,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/06/28/git-ji-chu-ming-ling-yu-shi-yong-fang-fa/">
                     <div class="card-image">
@@ -1107,9 +1107,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-06-28
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-28
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1122,6 +1122,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1140,30 +1141,30 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/06/25/guo-wang-de-yan-jiang-2010/">
+                <a href="/2021/06/27/niu-nai-ke-le-jing-ji-xue/">
                     <div class="card-image">
                         
-                        <img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%94%B5%E5%BD%B1/%E3%80%8A%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%BC%94%E8%AE%B2%E3%80%8B2010/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%BC%94%E8%AE%B2-cover.jfif" class="responsive-img" alt="《国王的演讲》2010">
+                        <img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E7%89%9B%E5%A5%B6%E5%8F%AF%E4%B9%90%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E7%89%9B%E5%A5%B6%E5%8F%AF%E4%B9%90%E7%BB%8F%E6%B5%8E%E5%AD%A6-cover.jfif" class="responsive-img" alt="《牛奶可乐经济学》">
                         
-                        <span class="card-title">《国王的演讲》2010</span>
+                        <span class="card-title">《牛奶可乐经济学》</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            励志的国王，精彩的电影
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-27
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%F0%9F%8E%AC/" class="post-category">
-                                    🎬
+                            <a href="/categories/%F0%9F%93%9A/" class="post-category">
+                                    📚
                                 </a>
                             
                             
@@ -1173,8 +1174,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%8A%B1%E5%BF%97/">
-                        <span class="chip bg-color">励志</span>
+                    <a href="/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/">
+                        <span class="chip bg-color">经济学</span>
                     </a>
                     
                 </div>
