@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>SEPA策略与VCP形态交易</title>
+    <url>/2023/03/01/SEPA%E4%B8%8EVCP%E4%BA%A4%E6%98%93/</url>
+    <content><![CDATA[<h3 id="SEPA"><strong>SEPA</strong></h3>
+<ol>
+<li class="lvl-3">股价高于150日（30周线）和200日（40周）均线。</li>
+<li class="lvl-3">150日均线高于200日均线。</li>
+<li class="lvl-3">200日均线上涨至少1个月（最好4至5个月或更长）</li>
+<li class="lvl-3">50日均线（10周）高于150日和200日均线。</li>
+<li class="lvl-3">目前的股价比52周内最低点至少高出25%（许多最好的股票在健康的筑底期后能比52周最低点高出100%、300%甚至更高）</li>
+<li class="lvl-3">目前的股价处在其52周高点的25%以内（越接近新高越好）</li>
+<li class="lvl-3">相对实力（RS， Relative Strength）排名不低于70，更好的选择一般是在90左右（注：RS线不应该有明显的下跌趋势，我希望RS线上涨至少6周，最好是13周以上）</li>
+<li class="lvl-3">因股价上涨突破前期底部，现价格应在50日均线之上。</li>
+</ol>
+<p>用公式体现上述基本要求，大致内容如下</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MA_50 := SUM(CLOSE,50)/50;</span><br><span class="line">MA_150 := SUM(CLOSE,150)/150;</span><br><span class="line">MA_200 := SUM(CLOSE,200)/200;</span><br><span class="line"></span><br><span class="line">LOWEST_PRICE := LLV(LOW, 200);</span><br><span class="line">HIGHEST_PRICE := HHV(HIGH, 200);</span><br><span class="line"></span><br><span class="line">CONDITION1 := (CLOSE&gt;MA_50);</span><br><span class="line">CONDITION2 := (MA_50&gt;MA_150);</span><br><span class="line">CONDITION3 := (MA_150&gt;MA_200);</span><br><span class="line"></span><br><span class="line">CONDITION4 := (CLOSE &gt; (LOWEST_PRICE*1.25));</span><br><span class="line">CONDITION5 := (CLOSE &lt; (HIGHEST_PRICE*0.75));</span><br><span class="line"></span><br><span class="line">CONDITION1 AND</span><br><span class="line">CONDITION2 AND</span><br><span class="line">CONDITION3 AND</span><br><span class="line">CONDITION4 AND</span><br><span class="line">CONDITION5;</span><br></pre></td></tr></table></figure>
+<h3 id="VCP形态"><strong>VCP形态</strong></h3>
+<p>简单来说就是交易标的的价格振幅在逐渐收敛的一个形态演进，也是供给数量（力量）逐渐减弱式微的一个过程。突破时交易量有明显放大（当日成交量为上周平均日成交量的两倍以上），突破至第二阶段前的第一阶段横盘的时间越长越好（最好1年以上），且突破的上方没有阻力区域的存在，这个非常重要。</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Health management</title>
+    <url>/2023/07/06/Health-management/</url>
+    <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706_210427R%20%E5%81%A5%E8%BA%AB%E7%8E%AF%E5%9B%BD%E8%A1%8C%E7%9B%98.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="健身环大冒险"></p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706_082408R.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="健身环81级了"></p>
+<p>这个健身环算是我目前购买过的最超值的健身设备了。</p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706-08-40-22-794_%E5%8D%8E%E4%B8%BA%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7.png?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="体重记录"></p>
+<p>脂肪、体脂还是偏高了一点，这个月把它降下来。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/01/01/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>交易记录</title>
+    <url>/2023/03/13/%E4%BA%A4%E6%98%93%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>值得买，于42元左右买入。<br>
+<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E5%80%BC%E5%BE%97%E4%B9%B020230313190002.png?x-oss-process=image/auto-orient,1/resize,p_50/quality,q_90" alt="值得买"></p>
+<p>绿盟科技，于13元左右买入。<br>
+<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E7%BB%BF%E7%9B%9F%E7%A7%91%E6%8A%8020230313190128.png?x-oss-process=image/auto-orient,1/resize,p_50/quality,q_90" alt="绿盟科技"></p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>冷水澡？上瘾？</title>
+    <url>/2023/07/10/%E5%86%B7%E6%B0%B4%E6%BE%A1%EF%BC%9F%E4%B8%8A%E7%98%BE%EF%BC%9F/</url>
+    <content><![CDATA[<p>持续用冷水冲澡三天了，莫名有点上瘾的感觉，皮肤适应了前几秒的水温之后有莫名的兴奋感，我在幻想若是皮肤上每一个细胞都似一个小人的话，那么此刻它们一定在兴奋地尖叫着，把这股兴奋劲与快感沿着神经末梢最终传达至我的大脑中。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>在市场里‘拣钱’需要的能力</title>
+    <url>/2023/06/03/%E5%9C%A8%E5%B8%82%E5%9C%BA%E9%87%8C%E2%80%98%E6%8B%A3%E9%92%B1%E2%80%99%E9%9C%80%E8%A6%81%E7%9A%84%E8%83%BD%E5%8A%9B/</url>
+    <content><![CDATA[<p>待得越久，得到的感悟越多。这两天突然有强烈的类似这种——自己可以在市场里“拣钱”了——的感觉。</p>
+<p>当然这种美事得有前提，根据我的感悟我稍微提炼下基础要求吧。</p>
+<ol>
+<li class="lvl-5">
+<p>跟着趋势，以小资金作为你的“侦察兵”去探两方的力量孰强孰弱</p>
+</li>
+<li class="lvl-5">
+<p>标记好“犯小错”的退出点</p>
+</li>
+<li class="lvl-5">
+<p>“犯错”时果断断尾清仓，判断正确时放大仓位</p>
+</li>
+</ol>
+<p>严格按着这种“策略”去操作，你必定会越来越觉得轻车熟路、渐入佳境，手里拿着的永远都是“不烫手”的筹码。</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>会长大的幸福</title>
+    <url>/2023/07/10/%E4%BC%9A%E9%95%BF%E5%A4%A7%E7%9A%84%E5%B9%B8%E7%A6%8F/</url>
+    <content><![CDATA[<p>中午一边盯盘一边听着TANK的歌，当听到《会长大的幸福》时，情绪终于崩不住，眼泪决堤而出。TANK的歌首首唱在我的心里最柔软处，我就是个极度闷闷又无聊的大情种，一心想断六根根除这些痛苦可我根本做不到。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>可以抛弃100%配列键盘了</title>
+    <url>/2023/07/03/%E5%8F%AF%E4%BB%A5%E6%8A%9B%E5%BC%83100-%E9%85%8D%E5%88%97%E9%94%AE%E7%9B%98%E4%BA%86/</url>
+    <content><![CDATA[<p>原来觉得必须得是104/108的才完整、才顺手，习惯了98布局后觉得是真香，把数字键盘区锁住当功能键与方向键使，可以很快适应盲打。特意备了两把，一把线性轴与一把段落轴。</p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/IMG_20230629_120713R_v98pro%E9%94%AE%E7%9B%98.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="V98Pro"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>就是会对这些东西上瘾</title>
+    <url>/2023/06/08/%E5%B0%B1%E6%98%AF%E5%AF%B9%E8%BF%99%E4%BA%9B%E4%B8%9C%E8%A5%BF%E4%B8%8A%E7%98%BE/</url>
+    <content><![CDATA[<p>年纪小点时对球鞋（主要篮球鞋）上瘾，再后来对手机、耳机上瘾，再往后是机械键盘、机车、头盔…… 是不是男[孩|人]喜欢的东西大抵都逃脱这类属性之中？</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>小级别海龟交易方法</title>
+    <url>/2023/07/03/%E5%B0%8F%E7%BA%A7%E5%88%AB%E6%B5%B7%E9%BE%9F%E4%BA%A4%E6%98%93%E6%96%B9%E6%B3%95%E8%A7%84%E5%88%99%E5%AE%8C%E5%96%84/</url>
+    <content><![CDATA[<p><strong>前提</strong>: 操作的股票需要满足VCP形态，且其之前运行形态是长时大角度向下的。<p></p>
+<h2 id="30分钟级别">30分钟级别</h2>
+<ol>
+<li class="lvl-5">
+<p>SAR转🔴时分2次建仓；<p></p>
+</li>
+<li class="lvl-5">
+<p>高位若能以量价分析（第3根K线5分钟以内无法突破新高）得出该卖信号时则立即卖出1/2；卖出后若SAR未转🟢则择机买回。<p></p>
+</li>
+<li class="lvl-5">
+<p>SAR转🟢时一次性清除仓位；<p></p>
+</li>
+<li class="lvl-5">
+<p>两次建仓中途若被打断（刚建1/2就转🟢），则等到最快的可操作的K线按规则操作是买入剩余1/2还是全部卖出。</p>
+</li>
+</ol>
+<h2 id="60与20分钟级别">60与20分钟级别</h2>
+<p>买点: vcp形态在波谷处待60分钟K线SAR转🔴时买入；或者之前就有几个60分K柱降不下去时,当20分钟K柱转🔴时即可买入.</p>
+<p>卖点: 20分钟K线柱的SAR转🟢时一次性清除仓位；转🔴是否依旧买回需要参考日K线形态。如当前持仓较多时,且当前及前一个20分钟K线柱相较它们的上一个20分钟K线柱无法升高时,则清仓。</p>
+<hr>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E5%A4%AA%E9%BE%99%E8%82%A1%E4%BB%BD30%E5%88%86%E9%92%9FK%E7%BA%BF%E5%9B%BE%E6%93%8D%E4%BD%9C%E5%88%86%E6%9E%90.png?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="太龙股份"></p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微光</title>
+    <url>/2023/07/03/%E5%BE%AE%E5%85%89/</url>
+    <content><![CDATA[<p>最近两天突然想起<em>义达</em>的一首歌《微光》，歌名比较贴合我目前的状态，深陷泥潭但能看到微光。特别喜欢最后90秒的女声solo，能反复一直听的那种喜欢。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26084246&auto=0&height=66"></iframe>
+]]></content>
+      <tags>
+        <tag>music</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>几本交易类书籍推荐</title>
+    <url>/2023/02/25/%E6%9C%80%E8%BF%91%E7%9C%8B%E7%9A%84%E5%87%A0%E6%9C%AC%E4%BA%A4%E6%98%93%E7%B1%BB%E4%B9%A6%E7%B1%8D/</url>
+    <content><![CDATA[<p>从看过的一些交易书籍里挑出了几本个人觉得有干货的。</p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><strong>《炒股的智慧》  陈江挺</strong></p>
+</li>
+<li class="lvl-2">
+<p><strong>《海龟交易法则》  柯蒂斯·费思</strong></p>
+</li>
+<li class="lvl-2">
+<p><strong>《笑傲牛熊》 斯坦·威斯特恩</strong></p>
+</li>
+<li class="lvl-2">
+<p><strong>《幽灵的礼物》 阿瑟·L·辛普森</strong></p>
+</li>
+<li class="lvl-2">
+<p><strong>《新威科夫操盘法》 孟洪涛</strong></p>
+</li>
+<li class="lvl-2">
+<p><strong>《澄明之境》 青泽</strong></p>
+</li>
+<li class="lvl-2">
+<p><strong>《股票魔法师2：像冠军一样思考和交易》 马克·米勒维尼</strong></p>
+</li>
+</ul>
+<p>《炒股的智慧》告诉你这条路并不是常人眼中的“赌博”，而可以是最激动人心的一项职业。里面谈到的八字秘笈：败而不倒，追求卓越，其实也是《幽灵的礼物》全书主要细讲的内容。《笑傲牛熊》可以与《股票魔法师》一前一后结合着看，后者的作者也是看过前者而受的启发推出自己的交易策略与模式。量价的基础可以看看《威科夫操盘法》，这对于你确定买入点、卖出点有辅助作用。《海龟交易法则》与《澄明之境》也可以放在一起看，手拿一种适合自己的“武器”并且信任它，这种信仰在交易中非常重要。</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+        <tag>read</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有头型没发型</title>
+    <url>/2023/03/10/%E6%9C%89%E5%A4%B4%E5%9E%8B%E6%B2%A1%E5%8F%91%E5%9E%8B/</url>
+    <content><![CDATA[<p>剪了光头后发现真的特别舒适，头皮感受着风与阳光的亲吻抚摸。都说头发是红尘烦恼丝，好像真的没说错。可以斩断很多非必要的消耗（时间与精力）在头发上。</p>
+]]></content>
+      <tags>
+        <tag>chat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>止盈是门‘艺术’活</title>
+    <url>/2023/04/15/%E6%AD%A2%E7%9B%88%E6%98%AF%E9%97%A8%E2%80%98%E8%89%BA%E6%9C%AF%E2%80%99%E6%B4%BB/</url>
+    <content><![CDATA[<p>我常常事后回头来看并思考我的很多笔交易心想要是没有那么早卖掉的话，其结果基本都是收益至少50%以上。看了米勒维尼他的止盈/止损方法让我受益不少，按着他的方法即当至少浮盈为3倍的止损比例值时才将止盈线设置到不低于盈亏平衡点的位置，然后如若价格继续上涨则寻求机会卖在尽可能的高点。或者给设置个50%的固定收益率，达到了就卖，前提是买入点很考验你的眼光与判断。</p>
+<p>我猜是马克本人也定是遭受了不计其数笔被稍稍比较大的一个回撤“甩下车”然后想上车却发现车子早已开出去很远类似这样的经历。于是乎在有浮盈的前期尽可能将止损点设得与当前价很远。这个策略确实需要压制与克服心里的贪婪因素，但是长久来看收益绝对是更大的。这是一个聪明的止盈策略。</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>歼20出现在巴黎航展？</title>
+    <url>/2023/06/24/%E6%AD%BC20%E5%87%BA%E7%8E%B0%E5%9C%A8%E5%B7%B4%E9%BB%8E%E8%88%AA%E5%B1%95%EF%BC%9F/</url>
+    <content><![CDATA[<p>对其他的四代机参展商直接来个降维打击。意味着中国六代机技术有了重大突破，以至于歼20、歼35直接转入可售卖清单中？</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>生酮饮食？</title>
+    <url>/2023/07/05/%E7%94%9F%E9%85%AE%E9%A5%AE%E9%A3%9F%EF%BC%9F/</url>
+    <content><![CDATA[<p>(伯格医生生酮饮食)[<a href="https://www.youtube.com/watch?v=tPPBYX8lUqk">https://www.youtube.com/watch?v=tPPBYX8lUqk</a>]</p>
+<blockquote>
+<p>柏格醫生 dr berg 談:生酮飲食是一種低碳水化合物、高脂肪的飲食，可將新陳代謝，從燃燒葡萄糖（糖）轉，變為燃燒酮（脂肪）。生酮可以很容易地燃燒脂肪、減輕體重、感到精力充沛和對抗胰島素抵抗。</p>
+</blockquote>
+<blockquote>
+<p>一般人儲存的脂肪有 9-10萬卡路里，但儲存的糖分只有 1,700 卡路里左右。如果你靠脂肪來鍛煉身體，你可以在不餓或不渴望碳水的情況下堅持更長時間。</p>
+</blockquote>
+<blockquote>
+<p>低脂肪和低熱量的飲食，含高碳水化合物。 吃高碳水可以防止脂肪燃燒！採用這些飲食的人很難保持健康的體重。 他們必須多運動，而且往往只能減掉水分。 這就是為什麼 98% 的節食都失敗了。</p>
+</blockquote>
+<blockquote>
+<p>每天將碳水攝取降低到 20-50 克就可以生酮。 你的碳水化合物越低，你就越容易生酮和燃燒脂肪。</p>
+</blockquote>
+<p>概述生酮飲食：不会饿、不渴望吃碳水，长项执行变得很简单。碳水吃的越少，身体越容易生酮。</p>
+]]></content>
+      <tags>
+        <tag>health</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股息漏洞？</title>
+    <url>/2023/06/08/%E8%82%A1%E6%81%AF%E6%BC%8F%E6%B4%9E%EF%BC%9F/</url>
+    <content><![CDATA[<p>资讯搜集整理，尾部时段买入，次日开盘如仓位未被证明是正确的话就卖出。若不碰上大跳水的妖股基本上都能够至少拿个分红。这算了是我今天找到的一个漏洞么？嗯，需要花一周时间来验证一下。🐼</p>
+<p>10日更新：股息分派后第二天总会导致股价相应缩水，所以说如果当前股票无确定上行趋势的话，股息分派没多大的意义。</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭车与交易</title>
+    <url>/2023/03/14/%E8%B7%B3%E4%B8%8A%E9%82%A3%E8%BE%86%E5%90%AF%E5%8A%A8%E7%9A%84%E8%BD%A6/</url>
+    <content><![CDATA[<p>你要搭车去远方，来到车站，准备搭车，我问你同时有很多辆车能载你到目的地你该选择搭哪辆呢？你说这不简单，哪辆车先出发就搭哪辆呗。没错，那如何判断哪辆车即将启动呢？当然是看见司机刚钻进驾驶室，准备打火启动的那辆。搭这辆车到达目的地的时间效率最高，其实效率最高的交易也与此情形如出一辙。</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>需要在日级别以内交易吗？</title>
+    <url>/2023/06/20/%E9%9C%80%E8%A6%81%E5%9C%A8%E6%97%A5%E7%BA%A7%E5%88%AB%E4%BB%A5%E5%86%85%E4%BA%A4%E6%98%93%E5%90%97%EF%BC%9F/</url>
+    <content><![CDATA[<p>在日级别里找出走势为“第二阶段”的标的，然后在其更小的操作级别里比如说30分钟级别里按均线寻找买卖机会，是否会比纯粹地以日级别交易更好地“滚雪球”？</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+</search>
