@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Health management</title>
-    <url>/2023/07/06/Health-management/</url>
-    <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706_210427R%20%E5%81%A5%E8%BA%AB%E7%8E%AF%E5%9B%BD%E8%A1%8C%E7%9B%98.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="健身环大冒险"></p>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706_082408R.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="健身环81级了"></p>
-<p>这个健身环算是我目前购买过的最超值的健身设备了。</p>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706-08-40-22-794_%E5%8D%8E%E4%B8%BA%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7.png?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="体重记录"></p>
-<p>脂肪、体脂还是偏高了一点，这个月把它降下来。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2019/01/01/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>SEPA策略与VCP形态交易</title>
     <url>/2023/03/01/SEPA%E4%B8%8EVCP%E4%BA%A4%E6%98%93/</url>
     <content><![CDATA[<h3 id="SEPA"><strong>SEPA</strong></h3>
@@ -53,10 +24,39 @@
       </tags>
   </entry>
   <entry>
+    <title>Health management</title>
+    <url>/2023/07/06/Health-management/</url>
+    <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706_210427R%20%E5%81%A5%E8%BA%AB%E7%8E%AF%E5%9B%BD%E8%A1%8C%E7%9B%98.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="健身环大冒险"></p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706_082408R.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="健身环81级了"></p>
+<p>这个健身环算是我目前购买过的最超值的健身设备了。</p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706-08-40-22-794_%E5%8D%8E%E4%B8%BA%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7.png?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="体重记录"></p>
+<p>脂肪、体脂还是偏高了一点，这个月把它降下来。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>《情意结》</title>
     <url>/2023/07/11/%E3%80%8A%E6%83%85%E6%84%8F%E7%BB%93%E3%80%8B/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/75maXf7tWxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <p>“為何每日早餐 仍然魂離魄散 原來 那朝分手都要啜泣中上班 明明能夠過得這關 贏回旁人盛讚 原來 頑強自愛這樣難 ……”，樸素簡單的歌詞自己卻覺得寫得是那麼地好，也許是因為大部份人都吃過這感情中的苦澀，所以能分外感同身受。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/01/01/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -192,6 +192,15 @@
       </tags>
   </entry>
   <entry>
+    <title>有头型没发型</title>
+    <url>/2023/03/10/%E6%9C%89%E5%A4%B4%E5%9E%8B%E6%B2%A1%E5%8F%91%E5%9E%8B/</url>
+    <content><![CDATA[<p>剪了光头后发现真的特别舒适，头皮感受着风与阳光的亲吻抚摸。都说头发是红尘烦恼丝，好像真的没说错。可以斩断很多非必要的消耗（时间与精力）在头发上。</p>
+]]></content>
+      <tags>
+        <tag>chat</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>止盈是门‘艺术’活</title>
     <url>/2023/04/15/%E6%AD%A2%E7%9B%88%E6%98%AF%E9%97%A8%E2%80%98%E8%89%BA%E6%9C%AF%E2%80%99%E6%B4%BB/</url>
     <content><![CDATA[<p>我常常事后回头来看并思考我的很多笔交易心想要是没有那么早卖掉的话，其结果基本都是收益至少50%以上。看了米勒维尼他的止盈/止损方法让我受益不少，按着他的方法即当至少浮盈为3倍的止损比例值时才将止盈线设置到不低于盈亏平衡点的位置，然后如若价格继续上涨则寻求机会卖在尽可能的高点。或者给设置个50%的固定收益率，达到了就卖，前提是买入点很考验你的眼光与判断。</p>
@@ -199,15 +208,6 @@
 ]]></content>
       <tags>
         <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>有头型没发型</title>
-    <url>/2023/03/10/%E6%9C%89%E5%A4%B4%E5%9E%8B%E6%B2%A1%E5%8F%91%E5%9E%8B/</url>
-    <content><![CDATA[<p>剪了光头后发现真的特别舒适，头皮感受着风与阳光的亲吻抚摸。都说头发是红尘烦恼丝，好像真的没说错。可以斩断很多非必要的消耗（时间与精力）在头发上。</p>
-]]></content>
-      <tags>
-        <tag>chat</tag>
       </tags>
   </entry>
   <entry>
