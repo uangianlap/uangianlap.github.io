@@ -1,46 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Health management</title>
-    <url>/2023/07/06/Health-management/</url>
-    <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706_210427R%20%E5%81%A5%E8%BA%AB%E7%8E%AF%E5%9B%BD%E8%A1%8C%E7%9B%98.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="健身环大冒险"></p>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706_082408R.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="健身环81级了"></p>
-<p>这个健身环算是我目前购买过的最超值的健身设备了。</p>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706-08-40-22-794_%E5%8D%8E%E4%B8%BA%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7.png?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="体重记录"></p>
-<p>脂肪、体脂还是偏高了一点，这个月把它降下来。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>《情意结》</title>
-    <url>/2023/07/11/%E3%80%8A%E6%83%85%E6%84%8F%E7%BB%93%E3%80%8B/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/75maXf7tWxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<p>“為何每次早餐 仍然魂離魄散 原來 那朝分手都要啜泣中上班 明明能夠過得這關 贏回旁人盛讚 原來 頑強自愛這樣難 ……”，樸素簡單的歌詞自己卻覺得寫得是那麼好，也許是因為人大多都吃過愛情中的那种痛彻心扉的痛苦与苦澀，听歌也如感同身受。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>SEPA策略与VCP形态交易</title>
-    <url>/2023/03/01/SEPA%E4%B8%8EVCP%E4%BA%A4%E6%98%93/</url>
-    <content><![CDATA[<h3 id="SEPA"><strong>SEPA</strong></h3>
-<ol>
-<li class="lvl-3">股价高于150日（30周线）和200日（40周）均线。</li>
-<li class="lvl-3">150日均线高于200日均线。</li>
-<li class="lvl-3">200日均线上涨至少1个月（最好4至5个月或更长）</li>
-<li class="lvl-3">50日均线（10周）高于150日和200日均线。</li>
-<li class="lvl-3">目前的股价比52周内最低点至少高出25%（许多最好的股票在健康的筑底期后能比52周最低点高出100%、300%甚至更高）</li>
-<li class="lvl-3">目前的股价处在其52周高点的25%以内（越接近新高越好）</li>
-<li class="lvl-3">相对实力（RS， Relative Strength）排名不低于70，更好的选择一般是在90左右（注：RS线不应该有明显的下跌趋势，我希望RS线上涨至少6周，最好是13周以上）</li>
-<li class="lvl-3">因股价上涨突破前期底部，现价格应在50日均线之上。</li>
-</ol>
-<p>用公式体现上述基本要求，大致内容如下</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MA_50 := SUM(CLOSE,50)/50;</span><br><span class="line">MA_150 := SUM(CLOSE,150)/150;</span><br><span class="line">MA_200 := SUM(CLOSE,200)/200;</span><br><span class="line"></span><br><span class="line">LOWEST_PRICE := LLV(LOW, 200);</span><br><span class="line">HIGHEST_PRICE := HHV(HIGH, 200);</span><br><span class="line"></span><br><span class="line">CONDITION1 := (CLOSE&gt;MA_50);</span><br><span class="line">CONDITION2 := (MA_50&gt;MA_150);</span><br><span class="line">CONDITION3 := (MA_150&gt;MA_200);</span><br><span class="line"></span><br><span class="line">CONDITION4 := (CLOSE &gt; (LOWEST_PRICE*1.25));</span><br><span class="line">CONDITION5 := (CLOSE &lt; (HIGHEST_PRICE*0.75));</span><br><span class="line"></span><br><span class="line">CONDITION1 AND</span><br><span class="line">CONDITION2 AND</span><br><span class="line">CONDITION3 AND</span><br><span class="line">CONDITION4 AND</span><br><span class="line">CONDITION5;</span><br></pre></td></tr></table></figure>
-<h3 id="VCP形态"><strong>VCP形态</strong></h3>
-<p>简单来说就是交易标的的价格振幅在逐渐收敛的一个形态演进，也是供给数量（力量）逐渐减弱式微的一个过程。突破时交易量有明显放大（当日成交量为上周平均日成交量的两倍以上），突破至第二阶段前的第一阶段横盘的时间越长越好（最好1年以上），且突破的上方没有阻力区域的存在，这个非常重要。</p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2019/01/01/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -60,108 +20,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>交易记录</title>
-    <url>/2023/03/13/%E4%BA%A4%E6%98%93%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<p>值得买，于42元左右买入。<br>
-<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E5%80%BC%E5%BE%97%E4%B9%B020230313190002.png?x-oss-process=image/auto-orient,1/resize,p_50/quality,q_90" alt="值得买"></p>
-<p>绿盟科技，于13元左右买入。<br>
-<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E7%BB%BF%E7%9B%9F%E7%A7%91%E6%8A%8020230313190128.png?x-oss-process=image/auto-orient,1/resize,p_50/quality,q_90" alt="绿盟科技"></p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>会长大的幸福</title>
-    <url>/2023/07/10/%E4%BC%9A%E9%95%BF%E5%A4%A7%E7%9A%84%E5%B9%B8%E7%A6%8F/</url>
-    <content><![CDATA[<p>中午一边盯盘一边听《会长大的幸福》这乎时，情绪突然没崩住，眼泪决堤而出，非常伤感。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>冷水澡？上瘾？</title>
-    <url>/2023/07/10/%E5%86%B7%E6%B0%B4%E6%BE%A1%EF%BC%9F%E4%B8%8A%E7%98%BE%EF%BC%9F/</url>
-    <content><![CDATA[<p>持续用冷水冲澡三天了，莫名有点上瘾的感觉，皮肤适应了前几秒的水温之后有莫名的兴奋感，若是皮肤上每一个细胞都似一个小人的话，那么我想此刻它们一定也在兴奋地尖叫着。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>可以抛弃100%配列键盘了</title>
-    <url>/2023/07/03/%E5%8F%AF%E4%BB%A5%E6%8A%9B%E5%BC%83100-%E9%85%8D%E5%88%97%E9%94%AE%E7%9B%98%E4%BA%86/</url>
-    <content><![CDATA[<p>原来觉得必须得是104/108的才完整、才顺手，习惯了98布局后觉得是真香，把数字键盘区锁住当功能键与方向键使，可以很快适应盲打。特意备了两把，一把线性轴与一把段落轴。</p>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/IMG_20230629_120713R_v98pro%E9%94%AE%E7%9B%98.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="V98Pro"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>在市场里‘拣钱’需要的能力</title>
-    <url>/2023/06/03/%E5%9C%A8%E5%B8%82%E5%9C%BA%E9%87%8C%E2%80%98%E6%8B%A3%E9%92%B1%E2%80%99%E9%9C%80%E8%A6%81%E7%9A%84%E8%83%BD%E5%8A%9B/</url>
-    <content><![CDATA[<p>待得越久，得到的感悟越多。这两天突然有强烈的类似这种——自己可以在市场里“拣钱”了——的感觉。</p>
-<p>当然这种美事得有前提，根据我的感悟我稍微提炼下基础要求吧。</p>
-<ol>
-<li class="lvl-5">
-<p>跟着趋势，以小资金作为你的“侦察兵”去探两方的力量孰强孰弱</p>
-</li>
-<li class="lvl-5">
-<p>标记好“犯小错”的退出点</p>
-</li>
-<li class="lvl-5">
-<p>“犯错”时果断断尾清仓，判断正确时放大仓位</p>
-</li>
-</ol>
-<p>严格按着这种“策略”去操作，你必定会越来越觉得轻车熟路、渐入佳境，手里拿着的永远都是“不烫手”的筹码。</p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小级别海龟交易方法</title>
-    <url>/2023/07/03/%E5%B0%8F%E7%BA%A7%E5%88%AB%E6%B5%B7%E9%BE%9F%E4%BA%A4%E6%98%93%E6%96%B9%E6%B3%95%E8%A7%84%E5%88%99%E5%AE%8C%E5%96%84/</url>
-    <content><![CDATA[<p><strong>前提</strong>: 操作的股票需要满足VCP形态，且其之前运行形态是长时大角度向下的。<p></p>
-<h2 id="30分钟级别（只参与上行通道）">30分钟级别（只参与上行通道）</h2>
-<ol>
-<li class="lvl-5">
-<p>SAR转🔴且K线柱为红色时分2次建仓；<p></p>
-</li>
-<li class="lvl-5">
-<p>高位若能以量价分析（第3根K线5分钟以内无法突破新高）得出该卖信号时则立即卖出1/2；卖出后若SAR未转🟢则择机买回。<p></p>
-</li>
-<li class="lvl-5">
-<p>SAR转🟢时一次性清除仓位；<p></p>
-</li>
-<li class="lvl-5">
-<p>两次建仓中途若被打断（刚建1/2就转🟢），则等到最快的可操作的K线按规则操作是买入剩余1/2还是全部卖出。</p>
-</li>
-</ol>
-<h2 id="60分钟级别交易策略（更新于20230722-sat-22-26）">60分钟级别交易策略（更新于20230722 sat 22:26）</h2>
-<p><strong>前提条件</strong>：<code>日线图为上行阶段的图形；卖点①优先于卖点②；</code></p>
-<p><strong>买点</strong>：<code>vcp形态在波谷处等待60分钟K线柱SAR转🔴时全仓买入；</code></p>
-<p><strong>卖点①</strong>：<code>最近的3个60分钟K线柱收盘价依次降低，那么此时尽管sar指标仍为🔴依旧卖出抑或是当前K线柱有极长的上影线并配合有不小的交易量且之后又接着一根为绿柱时，则即使此时sar指标为🔴也依旧卖出，待之后的K线柱创新高再买入(证明风险已解除)；</code></p>
-<p><strong>卖点②</strong>：<code>其次等待sar转🟢时即全仓卖出。</code></p>
-<hr>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E5%A4%AA%E9%BE%99%E8%82%A1%E4%BB%BD30%E5%88%86%E9%92%9FK%E7%BA%BF%E5%9B%BE%E6%93%8D%E4%BD%9C%E5%88%86%E6%9E%90.png?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="太龙股份"></p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微光</title>
-    <url>/2023/07/03/%E5%BE%AE%E5%85%89/</url>
-    <content><![CDATA[<p>最近两天突然想起<em>义达</em>的一首歌《微光》，歌名比较贴合我目前的状态，深陷泥潭但能看到微光。特别喜欢最后90秒的女声solo，能一直重复地听。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26084246&auto=0&height=66"></iframe>
-]]></content>
-      <tags>
-        <tag>music</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>就是会对这些东西上瘾</title>
-    <url>/2023/06/08/%E5%B0%B1%E6%98%AF%E5%AF%B9%E8%BF%99%E4%BA%9B%E4%B8%9C%E8%A5%BF%E4%B8%8A%E7%98%BE/</url>
-    <content><![CDATA[<p>年纪小点时对球鞋（主要篮球鞋）上瘾，再后来对手机、耳机上瘾，再往后是机械键盘、机车、头盔…… 是不是男[孩|人]喜欢的东西大抵都逃脱这类属性之中？</p>
-]]></content>
-  </entry>
-  <entry>
     <title>几本交易类书籍推荐</title>
-    <url>/2023/02/25/%E6%9C%80%E8%BF%91%E7%9C%8B%E7%9A%84%E5%87%A0%E6%9C%AC%E4%BA%A4%E6%98%93%E7%B1%BB%E4%B9%A6%E7%B1%8D/</url>
+    <url>/2023/02/25/20230225%E6%9C%80%E8%BF%91%E7%9C%8B%E7%9A%84%E5%87%A0%E6%9C%AC%E4%BA%A4%E6%98%93%E7%B1%BB%E4%B9%A6%E7%B1%8D/</url>
     <content><![CDATA[<p>从看过的一些交易书籍里挑出了几本个人觉得有干货的。</p>
 <ul class="lvl-0">
 <li class="lvl-2">
@@ -195,7 +55,7 @@
   </entry>
   <entry>
     <title>有头型没发型</title>
-    <url>/2023/03/10/%E6%9C%89%E5%A4%B4%E5%9E%8B%E6%B2%A1%E5%8F%91%E5%9E%8B/</url>
+    <url>/2023/03/10/20230310%E6%9C%89%E5%A4%B4%E5%9E%8B%E6%B2%A1%E5%8F%91%E5%9E%8B/</url>
     <content><![CDATA[<p>剪了光头后发现真的特别舒适，头皮感受着风与阳光的亲吻抚摸。都说头发是红尘烦恼丝，好像真的没说错。可以斩断很多非必要的消耗（时间与精力）在头发上。</p>
 ]]></content>
       <tags>
@@ -203,8 +63,74 @@
       </tags>
   </entry>
   <entry>
+    <title>SEPA策略与VCP形态交易</title>
+    <url>/2023/03/01/20230301SEPA%E4%B8%8EVCP%E4%BA%A4%E6%98%93/</url>
+    <content><![CDATA[<h3 id="SEPA"><strong>SEPA</strong></h3>
+<ol>
+<li class="lvl-3">股价高于150日（30周线）和200日（40周）均线。</li>
+<li class="lvl-3">150日均线高于200日均线。</li>
+<li class="lvl-3">200日均线上涨至少1个月（最好4至5个月或更长）</li>
+<li class="lvl-3">50日均线（10周）高于150日和200日均线。</li>
+<li class="lvl-3">目前的股价比52周内最低点至少高出25%（许多最好的股票在健康的筑底期后能比52周最低点高出100%、300%甚至更高）</li>
+<li class="lvl-3">目前的股价处在其52周高点的25%以内（越接近新高越好）</li>
+<li class="lvl-3">相对实力（RS， Relative Strength）排名不低于70，更好的选择一般是在90左右（注：RS线不应该有明显的下跌趋势，我希望RS线上涨至少6周，最好是13周以上）</li>
+<li class="lvl-3">因股价上涨突破前期底部，现价格应在50日均线之上。</li>
+</ol>
+<p>用公式体现上述基本要求，大致内容如下</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MA_50 := SUM(CLOSE,50)/50;</span><br><span class="line">MA_150 := SUM(CLOSE,150)/150;</span><br><span class="line">MA_200 := SUM(CLOSE,200)/200;</span><br><span class="line"></span><br><span class="line">LOWEST_PRICE := LLV(LOW, 200);</span><br><span class="line">HIGHEST_PRICE := HHV(HIGH, 200);</span><br><span class="line"></span><br><span class="line">CONDITION1 := (CLOSE&gt;MA_50);</span><br><span class="line">CONDITION2 := (MA_50&gt;MA_150);</span><br><span class="line">CONDITION3 := (MA_150&gt;MA_200);</span><br><span class="line"></span><br><span class="line">CONDITION4 := (CLOSE &gt; (LOWEST_PRICE*1.25));</span><br><span class="line">CONDITION5 := (CLOSE &lt; (HIGHEST_PRICE*0.75));</span><br><span class="line"></span><br><span class="line">CONDITION1 AND</span><br><span class="line">CONDITION2 AND</span><br><span class="line">CONDITION3 AND</span><br><span class="line">CONDITION4 AND</span><br><span class="line">CONDITION5;</span><br></pre></td></tr></table></figure>
+<h3 id="VCP形态"><strong>VCP形态</strong></h3>
+<p>简单来说就是交易标的的价格振幅在逐渐收敛的一个形态演进，也是供给数量（力量）逐渐减弱式微的一个过程。突破时交易量有明显放大（当日成交量为上周平均日成交量的两倍以上），突破至第二阶段前的第一阶段横盘的时间越长越好（最好1年以上），且突破的上方没有阻力区域的存在，这个非常重要。</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>交易记录</title>
+    <url>/2023/03/13/20230313%E4%BA%A4%E6%98%93%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>值得买，于42元左右买入。<br>
+<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E5%80%BC%E5%BE%97%E4%B9%B020230313190002.png?x-oss-process=image/auto-orient,1/resize,p_50/quality,q_90" alt="值得买"></p>
+<p>绿盟科技，于13元左右买入。<br>
+<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E7%BB%BF%E7%9B%9F%E7%A7%91%E6%8A%8020230313190128.png?x-oss-process=image/auto-orient,1/resize,p_50/quality,q_90" alt="绿盟科技"></p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭车与交易</title>
+    <url>/2023/03/14/20230314%E8%B7%B3%E4%B8%8A%E9%82%A3%E8%BE%86%E5%90%AF%E5%8A%A8%E7%9A%84%E8%BD%A6/</url>
+    <content><![CDATA[<p>你要搭车去远方，来到车站，准备搭车，我问你同时有很多辆车能载你到目的地你该选择搭哪辆呢？你说这不简单，哪辆车先出发就搭哪辆呗。没错，那如何判断哪辆车即将启动呢？当然是看见司机刚钻进驾驶室，准备打火启动的那辆。搭这辆车到达目的地的时间效率最高，其实效率最高的交易也与此情形如出一辙。</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在市场里‘拣钱’需要的能力</title>
+    <url>/2023/06/03/20230603%E5%9C%A8%E5%B8%82%E5%9C%BA%E9%87%8C%E2%80%98%E6%8B%A3%E9%92%B1%E2%80%99%E9%9C%80%E8%A6%81%E7%9A%84%E8%83%BD%E5%8A%9B/</url>
+    <content><![CDATA[<p>待得越久，得到的感悟越多。这两天突然有强烈的类似这种——自己可以在市场里“拣钱”了——的感觉。</p>
+<p>当然这种美事得有前提，根据我的感悟我稍微提炼下基础要求吧。</p>
+<ol>
+<li class="lvl-5">
+<p>跟着趋势，以小资金作为你的“侦察兵”去探两方的力量孰强孰弱</p>
+</li>
+<li class="lvl-5">
+<p>标记好“犯小错”的退出点</p>
+</li>
+<li class="lvl-5">
+<p>“犯错”时果断断尾清仓，判断正确时放大仓位</p>
+</li>
+</ol>
+<p>严格按着这种“策略”去操作，你必定会越来越觉得轻车熟路、渐入佳境，手里拿着的永远都是“不烫手”的筹码。</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>止盈是门‘艺术’活</title>
-    <url>/2023/04/15/%E6%AD%A2%E7%9B%88%E6%98%AF%E9%97%A8%E2%80%98%E8%89%BA%E6%9C%AF%E2%80%99%E6%B4%BB/</url>
+    <url>/2023/04/15/20230415%E6%AD%A2%E7%9B%88%E6%98%AF%E9%97%A8%E2%80%98%E8%89%BA%E6%9C%AF%E2%80%99%E6%B4%BB/</url>
     <content><![CDATA[<p>我常常事后回头来看并思考我的很多笔交易心想要是没有那么早卖掉的话，其结果基本都是收益至少50%以上。看了米勒维尼他的止盈/止损方法让我受益不少，按着他的方法即当至少浮盈为3倍的止损比例值时才将止盈线设置到不低于盈亏平衡点的位置，然后如若价格继续上涨则寻求机会卖在尽可能的高点。或者给设置个50%的固定收益率，达到了就卖，前提是买入点很考验你的眼光与判断。</p>
 <p>我猜是马克本人也定是遭受了不计其数笔被稍稍比较大的一个回撤“甩下车”然后想上车却发现车子早已开出去很远类似这样的经历。于是乎在有浮盈的前期尽可能将止损点设得与当前价很远。这个策略确实需要压制与克服心里的贪婪因素，但是长久来看收益绝对是更大的。这是一个聪明的止盈策略。</p>
 ]]></content>
@@ -213,14 +139,97 @@
       </tags>
   </entry>
   <entry>
+    <title>就是会对这些东西上瘾</title>
+    <url>/2023/06/08/20230608%E5%B0%B1%E6%98%AF%E5%AF%B9%E8%BF%99%E4%BA%9B%E4%B8%9C%E8%A5%BF%E4%B8%8A%E7%98%BE/</url>
+    <content><![CDATA[<p>年纪小点时对球鞋（主要篮球鞋）上瘾，再后来对手机、耳机上瘾，再往后是机械键盘、机车、头盔…… 是不是男[孩|人]喜欢的东西大抵都逃脱这类属性之中？</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>股息漏洞？</title>
+    <url>/2023/06/08/20230608%E8%82%A1%E6%81%AF%E6%BC%8F%E6%B4%9E%EF%BC%9F/</url>
+    <content><![CDATA[<p>资讯搜集整理，尾部时段买入，次日开盘如仓位未被证明是正确的话就卖出。若不碰上大跳水的妖股基本上都能够至少拿个分红。这算了是我今天找到的一个漏洞么？嗯，需要花一周时间来验证一下。🐼</p>
+<p>10日更新：股息分派后第二天总会导致股价相应缩水，所以说如果当前股票无确定上行趋势的话，股息分派没多大的意义。</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>需要在日级别以内交易吗？</title>
+    <url>/2023/06/20/20230620%E9%9C%80%E8%A6%81%E5%9C%A8%E6%97%A5%E7%BA%A7%E5%88%AB%E4%BB%A5%E5%86%85%E4%BA%A4%E6%98%93%E5%90%97%EF%BC%9F/</url>
+    <content><![CDATA[<p>在日级别里找出走势为“第二阶段”的标的，然后在其更小的操作级别里比如说30分钟级别里按均线寻找买卖机会，是否会比纯粹地以日级别交易更好地“滚雪球”？</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>歼20出现在巴黎航展？</title>
-    <url>/2023/06/24/%E6%AD%BC20%E5%87%BA%E7%8E%B0%E5%9C%A8%E5%B7%B4%E9%BB%8E%E8%88%AA%E5%B1%95%EF%BC%9F/</url>
+    <url>/2023/06/24/20230624%E6%AD%BC20%E5%87%BA%E7%8E%B0%E5%9C%A8%E5%B7%B4%E9%BB%8E%E8%88%AA%E5%B1%95%EF%BC%9F/</url>
     <content><![CDATA[<p>对其他的四代机参展商直接来个降维打击。意味着中国六代机技术有了重大突破，以至于歼20、歼35直接转入可售卖清单中？</p>
 ]]></content>
   </entry>
   <entry>
+    <title>可以抛弃100%配列键盘了</title>
+    <url>/2023/07/03/20230703%E5%8F%AF%E4%BB%A5%E6%8A%9B%E5%BC%83100-%E9%85%8D%E5%88%97%E9%94%AE%E7%9B%98%E4%BA%86/</url>
+    <content><![CDATA[<p>原来觉得必须得是104/108的才完整、才顺手，习惯了98布局后觉得是真香，把数字键盘区锁住当功能键与方向键使，可以很快适应盲打。特意备了两把，一把线性轴与一把段落轴。</p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/IMG_20230629_120713R_v98pro%E9%94%AE%E7%9B%98.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="V98Pro"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>小级别海龟交易方法</title>
+    <url>/2023/07/03/20230703%E5%B0%8F%E7%BA%A7%E5%88%AB%E6%B5%B7%E9%BE%9F%E4%BA%A4%E6%98%93%E6%96%B9%E6%B3%95%E8%A7%84%E5%88%99%E5%AE%8C%E5%96%84/</url>
+    <content><![CDATA[<p><strong>前提</strong>: 操作的股票需要满足VCP形态，且其之前运行形态是长时大角度向下的。<p></p>
+<h2 id="30分钟级别（只参与上行通道）">30分钟级别（只参与上行通道）</h2>
+<ol>
+<li class="lvl-5">
+<p>SAR转🔴且K线柱为红色时分2次建仓；<p></p>
+</li>
+<li class="lvl-5">
+<p>高位若能以量价分析（第3根K线5分钟以内无法突破新高）得出该卖信号时则立即卖出1/2；卖出后若SAR未转🟢则择机买回。<p></p>
+</li>
+<li class="lvl-5">
+<p>SAR转🟢时一次性清除仓位；<p></p>
+</li>
+<li class="lvl-5">
+<p>两次建仓中途若被打断（刚建1/2就转🟢），则等到最快的可操作的K线按规则操作是买入剩余1/2还是全部卖出。</p>
+</li>
+</ol>
+<h2 id="60分钟级别交易策略（更新于20230722-sat-22-26）">60分钟级别交易策略（更新于20230722 sat 22:26）</h2>
+<p><strong>前提条件</strong>：<code>日线图为上行阶段的图形；卖点①优先于卖点②；</code></p>
+<p><strong>买点</strong>：<code>vcp形态在波谷处等待60分钟K线柱SAR转🔴时全仓买入；</code></p>
+<p><strong>卖点①</strong>：<code>最近的3个60分钟K线柱收盘价依次降低，那么此时尽管sar指标仍为🔴依旧卖出抑或是当前K线柱有极长的上影线并配合有不小的交易量且之后又接着一根为绿柱时，则即使此时sar指标为🔴也依旧卖出，待之后的K线柱创新高再买入(证明风险已解除)；</code></p>
+<p><strong>卖点②</strong>：<code>其次等待sar转🟢时即全仓卖出。</code></p>
+<hr>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E5%A4%AA%E9%BE%99%E8%82%A1%E4%BB%BD30%E5%88%86%E9%92%9FK%E7%BA%BF%E5%9B%BE%E6%93%8D%E4%BD%9C%E5%88%86%E6%9E%90.png?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="太龙股份"></p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微光</title>
+    <url>/2023/07/03/20230703%E5%BE%AE%E5%85%89/</url>
+    <content><![CDATA[<p>最近两天突然想起<em>义达</em>的一首歌《微光》，歌名比较贴合我目前的状态，深陷泥潭但能看到微光。特别喜欢最后90秒的女声solo，能一直重复地听。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26084246&auto=0&height=66"></iframe>
+]]></content>
+      <tags>
+        <tag>music</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Health management</title>
+    <url>/2023/07/06/20230706Health-management/</url>
+    <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706_210427R%20%E5%81%A5%E8%BA%AB%E7%8E%AF%E5%9B%BD%E8%A1%8C%E7%9B%98.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="健身环大冒险"></p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706_082408R.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="健身环81级了"></p>
+<p>这个健身环算是我目前购买过的最超值的健身设备了。</p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230706-08-40-22-794_%E5%8D%8E%E4%B8%BA%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7.png?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="体重记录"></p>
+<p>脂肪、体脂还是偏高了一点，这个月把它降下来。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>生酮饮食？</title>
-    <url>/2023/07/05/%E7%94%9F%E9%85%AE%E9%A5%AE%E9%A3%9F%EF%BC%9F/</url>
+    <url>/2023/07/05/20230705%E7%94%9F%E9%85%AE%E9%A5%AE%E9%A3%9F%EF%BC%9F/</url>
     <content><![CDATA[<p>(伯格医生生酮饮食)[<a href="https://www.youtube.com/watch?v=tPPBYX8lUqk">https://www.youtube.com/watch?v=tPPBYX8lUqk</a>]</p>
 <blockquote>
 <p>柏格醫生 dr berg 談:生酮飲食是一種低碳水化合物、高脂肪的飲食，可將新陳代謝，從燃燒葡萄糖（糖）轉，變為燃燒酮（脂肪）。生酮可以很容易地燃燒脂肪、減輕體重、感到精力充沛和對抗胰島素抵抗。</p>
@@ -241,76 +250,27 @@
       </tags>
   </entry>
   <entry>
-    <title>股息漏洞？</title>
-    <url>/2023/06/08/%E8%82%A1%E6%81%AF%E6%BC%8F%E6%B4%9E%EF%BC%9F/</url>
-    <content><![CDATA[<p>资讯搜集整理，尾部时段买入，次日开盘如仓位未被证明是正确的话就卖出。若不碰上大跳水的妖股基本上都能够至少拿个分红。这算了是我今天找到的一个漏洞么？嗯，需要花一周时间来验证一下。🐼</p>
-<p>10日更新：股息分派后第二天总会导致股价相应缩水，所以说如果当前股票无确定上行趋势的话，股息分派没多大的意义。</p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搭车与交易</title>
-    <url>/2023/03/14/%E8%B7%B3%E4%B8%8A%E9%82%A3%E8%BE%86%E5%90%AF%E5%8A%A8%E7%9A%84%E8%BD%A6/</url>
-    <content><![CDATA[<p>你要搭车去远方，来到车站，准备搭车，我问你同时有很多辆车能载你到目的地你该选择搭哪辆呢？你说这不简单，哪辆车先出发就搭哪辆呗。没错，那如何判断哪辆车即将启动呢？当然是看见司机刚钻进驾驶室，准备打火启动的那辆。搭这辆车到达目的地的时间效率最高，其实效率最高的交易也与此情形如出一辙。</p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>需要在日级别以内交易吗？</title>
-    <url>/2023/06/20/%E9%9C%80%E8%A6%81%E5%9C%A8%E6%97%A5%E7%BA%A7%E5%88%AB%E4%BB%A5%E5%86%85%E4%BA%A4%E6%98%93%E5%90%97%EF%BC%9F/</url>
-    <content><![CDATA[<p>在日级别里找出走势为“第二阶段”的标的，然后在其更小的操作级别里比如说30分钟级别里按均线寻找买卖机会，是否会比纯粹地以日级别交易更好地“滚雪球”？</p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>跟着你到天边</title>
-    <url>/2023/07/25/%E8%B7%9F%E7%9D%80%E4%BD%A0%E5%88%B0%E5%A4%A9%E8%BE%B9/</url>
-    <content><![CDATA[<p>“容颜变 岁月迁 心中的温情永不减 跟着你 到天边 相会在如烟的昨天……”</p>
-<p>好听的歌曲，真的是一耳朵就喜欢上，这首歌就是这样。</p>
-<p>我的感性又敏感的性格最听不得这样子的歌，太容易伤感，没一会就把自己感动得热泪盈眶。但是电影与歌曲都是杰作，值得一看再看。我常说好电影离不开好音乐，否则也就担不上好电影的名头，吴青峰把这世间最美好的爱情唱出来了。腾格尔也翻唱过这首，但我听着实在没有共情，歌手如演员一样，不同的演员演同一段台词给观众的感受也是不一样的。大家最近好像都在欣赏周琛的类女声唱法，我不太喜欢，偶尔听一两次还好多了便容易审美疲劳，但吴青峰的唱腔我是很喜欢的，总觉得能表达出更细腻的情感，而这种感觉是大多男歌手都表现不出来的，有点那梅兰芳扮花旦的感觉。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28546507&auto=1&height=66"></iframe>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">作词 : 陈其钢</span><br><span class="line">作曲 : 陈其钢</span><br><span class="line">编曲 : 林暐哲</span><br><span class="line">制作人 : 林暐哲</span><br><span class="line">昨天的身影在眼前</span><br><span class="line">昨天的欢笑响耳边</span><br><span class="line">无声的岁月飘然去</span><br><span class="line">心中的温情永不减</span><br><span class="line"></span><br><span class="line">跟着你 走到天边</span><br><span class="line">挽着手 直到永远</span><br><span class="line">沿着那岁月留下的路</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">容颜变 岁月迁</span><br><span class="line">心中的温情永不减</span><br><span class="line">跟着你 到天边</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">容颜变 岁月迁</span><br><span class="line">心中的温情永不减</span><br><span class="line">跟着你 到天边</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">跟着你 走到天边</span><br><span class="line">挽着手 直到永远</span><br><span class="line">沿着那岁月留下的路</span><br><span class="line">相会在如烟的昨天</span><br></pre></td></tr></table></figure>
+    <title>会长大的幸福</title>
+    <url>/2023/07/10/20230710%E4%BC%9A%E9%95%BF%E5%A4%A7%E7%9A%84%E5%B9%B8%E7%A6%8F/</url>
+    <content><![CDATA[<p>中午一边盯盘一边听《会长大的幸福》这乎时，情绪突然没崩住，眼泪决堤而出，非常伤感。</p>
 ]]></content>
   </entry>
   <entry>
-    <title>喜欢的《哥德堡变奏曲》版本</title>
-    <url>/2023/07/25/%E5%96%9C%E6%AC%A2%E7%9A%84%E3%80%8A%E5%93%A5%E5%BE%B7%E5%A0%A1%E5%8F%98%E5%A5%8F%E6%9B%B2%E3%80%8B%E7%89%88%E6%9C%AC/</url>
-    <content><![CDATA[<p>听过几个版本，目前相对最喜欢的就这个版本了，朱晓玫/郎朗/古尔德的次之。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=92242137&auto=0&height=430"></iframe>
+    <title>冷水澡？上瘾？</title>
+    <url>/2023/07/10/20230710%E5%86%B7%E6%B0%B4%E6%BE%A1%EF%BC%9F%E4%B8%8A%E7%98%BE%EF%BC%9F/</url>
+    <content><![CDATA[<p>持续用冷水冲澡三天了，莫名有点上瘾的感觉，皮肤适应了前几秒的水温之后有莫名的兴奋感，若是皮肤上每一个细胞都似一个小人的话，那么我想此刻它们一定也在兴奋地尖叫着。</p>
 ]]></content>
   </entry>
   <entry>
-    <title>发际线——男人的痛</title>
-    <url>/2023/07/26/%E5%8F%91%E9%99%85%E7%BA%BF%E2%80%94%E2%80%94%E7%94%B7%E4%BA%BA%E7%9A%84%E7%97%9B/</url>
-    <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E6%97%A5%E5%B8%B8/%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7/20230726_161010R%E9%9D%9E%E9%82%A3%E9%9B%84%E8%83%BA%E7%89%87.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt=""></p>
+    <title>《情意结》</title>
+    <url>/2023/07/11/20230711%E3%80%8A%E6%83%85%E6%84%8F%E7%BB%93%E3%80%8B/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/75maXf7tWxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>“為何每次早餐 仍然魂離魄散 原來 那朝分手都要啜泣中上班 明明能夠過得這關 贏回旁人盛讚 原來 頑強自愛這樣難 ……”，樸素簡單的歌詞自己卻覺得寫得是那麼好，也許是因為人大多都吃過愛情中的那种痛彻心扉的痛苦与苦澀，听歌也如感同身受。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>转为用随行WIFI</title>
-    <url>/2023/07/29/%E8%BD%AC%E4%B8%BA%E7%94%A8%E9%9A%8F%E8%A1%8CWIFI/</url>
-    <content><![CDATA[<p>游戏、youtubeb、bilibili视频、证券软件、下载等功能都测试了一下发现网络能满足自己的要求，比上次买的上赞那款无卡的强多了，准备将其他重复的网络费用全部给取消了，交由此随行WIFI来管理，尤其华为智慧生活还有方便管理的交互界面接口。</p>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E6%97%A5%E5%B8%B8/20230729101907300_%E5%8D%8E%E4%B8%BA%E9%9A%8F%E8%BA%ABWIFI3PRO%E5%A5%BD%E7%94%A8.png" alt=""></p>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E6%97%A5%E5%B8%B8/20230729-105908-793_%E5%8D%8E%E4%B8%BA%E9%9A%8F%E8%A1%8Cwifi3pro%E8%BF%9E%E6%8E%A5%E5%90%84%E8%AE%BE%E5%A4%87.png" alt=""></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>COCO李玟也走了</title>
-    <url>/2023/08/01/COCO%E6%9D%8E%E7%8E%9F%E4%B9%9F%E8%B5%B0%E4%BA%86/</url>
-    <content><![CDATA[<p>最近一次在电视里见到还是在湖南卫视“聲生不息”里众歌手翻唱《下一次天后》，对这首歌印象深是因为清楚地记得这首歌出来时正值MP3播放器最火的时候，我那时就经常在我的512M容量的MP3里循环播放TWINS。而这一次的翻唱也是对李玟的声音印象最深，这首翻唱里2分54秒单独出现的2句女声就来自COCO李玟，我当时也是觉得这个女声也太毒太港味了吧。 48岁年华，抑郁症，受伤感情的伤，确实令人伤感又怜惜。</p>
-<blockquote>
-<p>聲生不息《下一站天后》<a href="https://www.youtube.com/watch?v=CRAPb-PaIrI&amp;list=RDCRAPb-PaIrI&amp;start_radio=1">https://www.youtube.com/watch?v=CRAPb-PaIrI&amp;list=RDCRAPb-PaIrI&amp;start_radio=1</a></p>
-</blockquote>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=CRAPb-PaIrI&list=RDCRAPb-PaIrI&start_radio=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
   </entry>
   <entry>
     <title>100级了 鼓掌</title>
-    <url>/2023/07/11/%E5%81%A5%E8%BA%AB%E7%8E%AF%E5%A4%A7%E5%86%92%E9%99%A9/</url>
+    <url>/2023/07/11/20230711%E5%81%A5%E8%BA%AB%E7%8E%AF%E5%A4%A7%E5%86%92%E9%99%A9/</url>
     <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/IMG_20230710_181640R.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt=""></p>
 <p>2023-07-25 140级 记录一下<br>
 <img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E5%81%A5%E8%BA%AB/20230725_121633R%E5%81%A5%E8%BA%AB%E7%8E%AF140%E7%BA%A7.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="140级"></p>
@@ -323,9 +283,40 @@
 ]]></content>
   </entry>
   <entry>
+    <title>喜欢的《哥德堡变奏曲》版本</title>
+    <url>/2023/07/25/20230725%E5%96%9C%E6%AC%A2%E7%9A%84%E3%80%8A%E5%93%A5%E5%BE%B7%E5%A0%A1%E5%8F%98%E5%A5%8F%E6%9B%B2%E3%80%8B%E7%89%88%E6%9C%AC/</url>
+    <content><![CDATA[<p>听过几个版本，目前相对最喜欢的就这个版本了，朱晓玫/郎朗/古尔德的次之。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=92242137&auto=0&height=430"></iframe>
+]]></content>
+  </entry>
+  <entry>
+    <title>跟着你到天边</title>
+    <url>/2023/07/25/20230725%E8%B7%9F%E7%9D%80%E4%BD%A0%E5%88%B0%E5%A4%A9%E8%BE%B9/</url>
+    <content><![CDATA[<p>“容颜变 岁月迁 心中的温情永不减 跟着你 到天边 相会在如烟的昨天……”</p>
+<p>好听的歌曲，真的是一耳朵就喜欢上，这首歌就是这样。</p>
+<p>我的感性又敏感的性格最听不得这样子的歌，太容易伤感，没一会就把自己感动得热泪盈眶。但是电影与歌曲都是杰作，值得一看再看。我常说好电影离不开好音乐，否则也就担不上好电影的名头，吴青峰把这世间最美好的爱情唱出来了。腾格尔也翻唱过这首，但我听着实在没有共情，歌手如演员一样，不同的演员演同一段台词给观众的感受也是不一样的。大家最近好像都在欣赏周琛的类女声唱法，我不太喜欢，偶尔听一两次还好多了便容易审美疲劳，但吴青峰的唱腔我是很喜欢的，总觉得能表达出更细腻的情感，而这种感觉是大多男歌手都表现不出来的，有点那梅兰芳扮花旦的感觉。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28546507&auto=1&height=66"></iframe>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">作词 : 陈其钢</span><br><span class="line">作曲 : 陈其钢</span><br><span class="line">编曲 : 林暐哲</span><br><span class="line">制作人 : 林暐哲</span><br><span class="line">昨天的身影在眼前</span><br><span class="line">昨天的欢笑响耳边</span><br><span class="line">无声的岁月飘然去</span><br><span class="line">心中的温情永不减</span><br><span class="line"></span><br><span class="line">跟着你 走到天边</span><br><span class="line">挽着手 直到永远</span><br><span class="line">沿着那岁月留下的路</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">容颜变 岁月迁</span><br><span class="line">心中的温情永不减</span><br><span class="line">跟着你 到天边</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">容颜变 岁月迁</span><br><span class="line">心中的温情永不减</span><br><span class="line">跟着你 到天边</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">跟着你 走到天边</span><br><span class="line">挽着手 直到永远</span><br><span class="line">沿着那岁月留下的路</span><br><span class="line">相会在如烟的昨天</span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>发际线——男人的痛</title>
+    <url>/2023/07/26/20230726%E5%8F%91%E9%99%85%E7%BA%BF%E2%80%94%E2%80%94%E7%94%B7%E4%BA%BA%E7%9A%84%E7%97%9B/</url>
+    <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E6%97%A5%E5%B8%B8/%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7/20230726_161010R%E9%9D%9E%E9%82%A3%E9%9B%84%E8%83%BA%E7%89%87.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt=""></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>转为用随行WIFI</title>
+    <url>/2023/07/29/20230729%E8%BD%AC%E4%B8%BA%E7%94%A8%E9%9A%8F%E8%A1%8CWIFI/</url>
+    <content><![CDATA[<p>游戏、youtubeb、bilibili视频、证券软件、下载等功能都测试了一下发现网络能满足自己的要求，比上次买的上赞那款无卡的强多了，准备将其他重复的网络费用全部给取消了，交由此随行WIFI来管理，尤其华为智慧生活还有方便管理的交互界面接口。</p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E6%97%A5%E5%B8%B8/20230729101907300_%E5%8D%8E%E4%B8%BA%E9%9A%8F%E8%BA%ABWIFI3PRO%E5%A5%BD%E7%94%A8.png" alt=""></p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E6%97%A5%E5%B8%B8/20230729-105908-793_%E5%8D%8E%E4%B8%BA%E9%9A%8F%E8%A1%8Cwifi3pro%E8%BF%9E%E6%8E%A5%E5%90%84%E8%AE%BE%E5%A4%87.png" alt=""></p>
+]]></content>
+  </entry>
+  <entry>
     <title>交易中最好的心态</title>
-    <url>/2023/08/04/%E4%BA%A4%E6%98%93%E4%B8%AD%E6%9C%80%E5%A5%BD%E7%9A%84%E5%BF%83%E6%80%81/</url>
-    <content><![CDATA[<p>技术可以在几小时内学会，但要掌握并保持执行过程中的果敢、从容甚至超然的心态就绝对没有那么简单了。<p>最近进入八月份的这几天，越来越有心得体会地认为最好最从容的交易心态就应该把它当作一个“游戏”来玩，而不应该过度关注资产总额，甚至最好是要将它忘掉，你按着这个“游戏”按规则认认真真地玩好，那么资产总值的稳定增加就是必然会的结果。</p>
+    <url>/2023/08/04/20230804%E4%BA%A4%E6%98%93%E4%B8%AD%E6%9C%80%E5%A5%BD%E7%9A%84%E5%BF%83%E6%80%81/</url>
+    <content><![CDATA[<p>技术可以在几小时内学会，但要掌握并保持执行过程中的果敢、从容甚至超然的心态就绝对没有那么简单了。<p>最近进入八月份的这几天，越来越有心得体会地认为最好最从容的交易心态就应该把它当作一个“游戏”来玩，而不应该过度关注资产总额，甚至最好是要将它忘掉，你按着这个“游戏”按规则认认真真地玩好，那么资产总值的稳定增加就是必然的结果。</p>
 <p>怎么锻炼呢？一次次地买入与卖出，按着指标规则操作则奖励自己，否则反省复盘自身当时心态到底是怎么回事，下次遇着要怎么克服。</p>
 <p>多出来的交易就是自己交的“保险费”，以保证自己的心态更加平稳，减少自己的贪婪降低自己的恐惧。多数人总试图在做多时尽量买在最低位然后卖在最高位，想要的更多你就会受伤更多，长期来看不是倒退也会是原地踏步。</p>
 ]]></content>
@@ -334,10 +325,27 @@
       </tags>
   </entry>
   <entry>
+    <title>20230805《祈祷》</title>
+    <url>/2023/08/05/20230805%E3%80%8A%E7%A5%88%E7%A5%B7%E3%80%8B/</url>
+    <content><![CDATA[<p>一首歌梦回到童年时光，当时更多只觉得歌声旋律好听，现在听来歌词还真的是祷告词啊！😜</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=301947&auto=0&height=66"></iframe>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">作词 : 翁炳荣</span><br><span class="line">作曲 : 传统</span><br><span class="line">编曲 : Ricky Ho</span><br><span class="line">作词：翁炳荣</span><br><span class="line">作曲：日本古曲</span><br><span class="line"></span><br><span class="line">女：让我们敲希望的钟啊</span><br><span class="line">多少祈祷在心中</span><br><span class="line">男：让大家看不到失败</span><br><span class="line">叫成功永远在</span><br><span class="line">女：让地球忘记了转动啊</span><br><span class="line">四季少了夏秋冬</span><br><span class="line">男：让宇宙关不了天窗</span><br><span class="line">叫太阳不西沉</span><br><span class="line"></span><br><span class="line">男：让欢喜代替了哀愁啊</span><br><span class="line">微笑不会再害羞</span><br><span class="line">女：让时光懂得去倒流</span><br><span class="line">叫青春不开溜</span><br><span class="line">男：让贫穷开始去逃亡啊</span><br><span class="line">快乐健康留四方</span><br><span class="line">女：让世界找不到黑暗</span><br><span class="line">幸福像花开放</span><br><span class="line"></span><br><span class="line">合：让我们敲希望的钟啊</span><br><span class="line">多少祈祷在心中</span><br><span class="line">让大家看不到失败</span><br><span class="line">叫成功永远在</span><br><span class="line">让大家看不到失败</span><br><span class="line">叫成功永远在</span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
     <title>马克的金玉良言</title>
-    <url>/2023/08/05/%E9%A9%AC%E5%85%8B%E7%9A%84%E9%87%91%E7%8E%89%E8%89%AF%E8%A8%80/</url>
+    <url>/2023/08/05/20230805%E9%A9%AC%E5%85%8B%E7%9A%84%E9%87%91%E7%8E%89%E8%89%AF%E8%A8%80/</url>
     <content><![CDATA[<p>这就是为什么这个行业与修行无异的原因，因为最重要的是修心，不能更赞同他的良言了。<br>
 <img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E9%87%91%E8%9E%8D%E4%B8%8E%E6%8A%95%E8%B5%84/%E9%A9%AC%E5%85%8B%E7%B1%B3%E5%8B%92%E7%BB%B4%E5%B0%BC20230805113544.png" alt=""></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>COCO李玟也走了</title>
+    <url>/2023/08/01/20230801COCO%E6%9D%8E%E7%8E%9F%E4%B9%9F%E8%B5%B0%E4%BA%86/</url>
+    <content><![CDATA[<p>最近一次在电视里见到还是在湖南卫视“聲生不息”里众歌手翻唱《下一次天后》，对这首歌印象深是因为清楚地记得这首歌出来时正值MP3播放器最火的时候，我那时就经常在我的512M容量的MP3里循环播放TWINS。而这一次的翻唱也是对李玟的声音印象最深，这首翻唱里2分54秒单独出现的2句女声就来自COCO李玟，我当时也是觉得这个女声也太毒太港味了吧。 48岁年华，抑郁症，受伤感情的伤，确实令人伤感又怜惜。</p>
+<blockquote>
+<p>聲生不息《下一站天后》<a href="https://www.youtube.com/watch?v=CRAPb-PaIrI&amp;list=RDCRAPb-PaIrI&amp;start_radio=1">https://www.youtube.com/watch?v=CRAPb-PaIrI&amp;list=RDCRAPb-PaIrI&amp;start_radio=1</a></p>
+</blockquote>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=CRAPb-PaIrI&list=RDCRAPb-PaIrI&start_radio=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
   </entry>
 </search>
