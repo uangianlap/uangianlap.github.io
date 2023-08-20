@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2019/01/01/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>几本交易类书籍推荐</title>
     <url>/2023/02/25/20230225%E6%9C%80%E8%BF%91%E7%9C%8B%E7%9A%84%E5%87%A0%E6%9C%AC%E4%BA%A4%E6%98%93%E7%B1%BB%E4%B9%A6%E7%B1%8D/</url>
     <content><![CDATA[<p>从看过的一些交易书籍里挑出了几本个人觉得有干货的。</p>
@@ -63,6 +44,18 @@
       </tags>
   </entry>
   <entry>
+    <title>交易记录</title>
+    <url>/2023/03/13/20230313%E4%BA%A4%E6%98%93%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>值得买，于42元左右买入。<br>
+<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E5%80%BC%E5%BE%97%E4%B9%B020230313190002.png?x-oss-process=image/auto-orient,1/resize,p_50/quality,q_90" alt="值得买"></p>
+<p>绿盟科技，于13元左右买入。<br>
+<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E7%BB%BF%E7%9B%9F%E7%A7%91%E6%8A%8020230313190128.png?x-oss-process=image/auto-orient,1/resize,p_50/quality,q_90" alt="绿盟科技"></p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>SEPA策略与VCP形态交易</title>
     <url>/2023/03/01/20230301SEPA%E4%B8%8EVCP%E4%BA%A4%E6%98%93/</url>
     <content><![CDATA[<h3 id="SEPA"><strong>SEPA</strong></h3>
@@ -86,12 +79,10 @@
       </tags>
   </entry>
   <entry>
-    <title>交易记录</title>
-    <url>/2023/03/13/20230313%E4%BA%A4%E6%98%93%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<p>值得买，于42元左右买入。<br>
-<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E5%80%BC%E5%BE%97%E4%B9%B020230313190002.png?x-oss-process=image/auto-orient,1/resize,p_50/quality,q_90" alt="值得买"></p>
-<p>绿盟科技，于13元左右买入。<br>
-<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E7%BB%BF%E7%9B%9F%E7%A7%91%E6%8A%8020230313190128.png?x-oss-process=image/auto-orient,1/resize,p_50/quality,q_90" alt="绿盟科技"></p>
+    <title>止盈是门‘艺术’活</title>
+    <url>/2023/04/15/20230415%E6%AD%A2%E7%9B%88%E6%98%AF%E9%97%A8%E2%80%98%E8%89%BA%E6%9C%AF%E2%80%99%E6%B4%BB/</url>
+    <content><![CDATA[<p>我常常事后回头来看并思考我的很多笔交易心想要是没有那么早卖掉的话，其结果基本都是收益至少50%以上。看了米勒维尼他的止盈/止损方法让我受益不少，按着他的方法即当至少浮盈为3倍的止损比例值时才将止盈线设置到不低于盈亏平衡点的位置，然后如若价格继续上涨则寻求机会卖在尽可能的高点。或者给设置个50%的固定收益率，达到了就卖，前提是买入点很考验你的眼光与判断。</p>
+<p>我猜是马克本人也定是遭受了不计其数笔被稍稍比较大的一个回撤“甩下车”然后想上车却发现车子早已开出去很远类似这样的经历。于是乎在有浮盈的前期尽可能将止损点设得与当前价很远。这个策略确实需要压制与克服心里的贪婪因素，但是长久来看收益绝对是更大的。这是一个聪明的止盈策略。</p>
 ]]></content>
       <tags>
         <tag>trade</tag>
@@ -129,16 +120,6 @@
       </tags>
   </entry>
   <entry>
-    <title>止盈是门‘艺术’活</title>
-    <url>/2023/04/15/20230415%E6%AD%A2%E7%9B%88%E6%98%AF%E9%97%A8%E2%80%98%E8%89%BA%E6%9C%AF%E2%80%99%E6%B4%BB/</url>
-    <content><![CDATA[<p>我常常事后回头来看并思考我的很多笔交易心想要是没有那么早卖掉的话，其结果基本都是收益至少50%以上。看了米勒维尼他的止盈/止损方法让我受益不少，按着他的方法即当至少浮盈为3倍的止损比例值时才将止盈线设置到不低于盈亏平衡点的位置，然后如若价格继续上涨则寻求机会卖在尽可能的高点。或者给设置个50%的固定收益率，达到了就卖，前提是买入点很考验你的眼光与判断。</p>
-<p>我猜是马克本人也定是遭受了不计其数笔被稍稍比较大的一个回撤“甩下车”然后想上车却发现车子早已开出去很远类似这样的经历。于是乎在有浮盈的前期尽可能将止损点设得与当前价很远。这个策略确实需要压制与克服心里的贪婪因素，但是长久来看收益绝对是更大的。这是一个聪明的止盈策略。</p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>就是会对这些东西上瘾</title>
     <url>/2023/06/08/20230608%E5%B0%B1%E6%98%AF%E5%AF%B9%E8%BF%99%E4%BA%9B%E4%B8%9C%E8%A5%BF%E4%B8%8A%E7%98%BE/</url>
     <content><![CDATA[<p>年纪小点时对球鞋（主要篮球鞋）上瘾，再后来对手机、耳机上瘾，再往后是机械键盘、机车、头盔…… 是不是男[孩|人]喜欢的东西大抵都逃脱这类属性之中？</p>
@@ -170,29 +151,21 @@
 ]]></content>
   </entry>
   <entry>
-    <title>《情意结》</title>
-    <url>/2023/07/11/20230711%E3%80%8A%E6%83%85%E6%84%8F%E7%BB%93%E3%80%8B/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/75maXf7tWxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<p>“為何每次早餐 仍然魂離魄散 原來 那朝分手都要啜泣中上班 明明能夠過得這關 贏回旁人盛讚 原來 頑強自愛這樣難 ……”，樸素簡單的歌詞自己卻覺得寫得是那麼好，也許是因為人大多都吃過愛情中的那种痛彻心扉的痛苦与苦澀，听歌也如感同身受。</p>
+    <title>可以抛弃100%配列键盘了</title>
+    <url>/2023/07/03/20230703%20%E5%8F%AF%E4%BB%A5%E6%8A%9B%E5%BC%83100-%E9%85%8D%E5%88%97%E9%94%AE%E7%9B%98%E4%BA%86/</url>
+    <content><![CDATA[<p>原来觉得必须得是104/108的才完整、才顺手，习惯了98布局后觉得也是蛮香，把数字键盘区锁住当功能键与方向键使，可以很快适应盲打。特意备了两把，一把“G红pro”线性轴与另一把大段落“冰魄”轴。</p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/IMG_20230629_120713R_v98pro%E9%94%AE%E7%9B%98.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="V98Pro"></p>
 ]]></content>
   </entry>
   <entry>
-    <title>跟着你到天边</title>
-    <url>/2023/07/25/20230725%E8%B7%9F%E7%9D%80%E4%BD%A0%E5%88%B0%E5%A4%A9%E8%BE%B9/</url>
-    <content><![CDATA[<p>“容颜变 岁月迁 心中的温情永不减 跟着你 到天边 相会在如烟的昨天……”</p>
-<p>好听的歌曲，真的是一耳朵就喜欢上，这首歌就是这样。</p>
-<p>我的感性又敏感的性格最听不得这样子的歌，太容易伤感，没一会就把自己感动得热泪盈眶。但是电影与歌曲都是杰作，值得一看再看。我常说好电影离不开好音乐，否则也就担不上好电影的名头，吴青峰把这世间最美好的爱情唱出来了。腾格尔也翻唱过这首，但我听着实在没有共情，歌手如演员一样，不同的演员演同一段台词给观众的感受也是不一样的。大家最近好像都在欣赏周琛的类女声唱法，我不太喜欢，偶尔听一两次还好多了便容易审美疲劳，但吴青峰的唱腔我是很喜欢的，总觉得能表达出更细腻的情感，而这种感觉是大多男歌手都表现不出来的，有点那梅兰芳扮花旦的感觉。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28546507&auto=1&height=66"></iframe>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">作词 : 陈其钢</span><br><span class="line">作曲 : 陈其钢</span><br><span class="line">编曲 : 林暐哲</span><br><span class="line">制作人 : 林暐哲</span><br><span class="line">昨天的身影在眼前</span><br><span class="line">昨天的欢笑响耳边</span><br><span class="line">无声的岁月飘然去</span><br><span class="line">心中的温情永不减</span><br><span class="line"></span><br><span class="line">跟着你 走到天边</span><br><span class="line">挽着手 直到永远</span><br><span class="line">沿着那岁月留下的路</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">容颜变 岁月迁</span><br><span class="line">心中的温情永不减</span><br><span class="line">跟着你 到天边</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">容颜变 岁月迁</span><br><span class="line">心中的温情永不减</span><br><span class="line">跟着你 到天边</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">跟着你 走到天边</span><br><span class="line">挽着手 直到永远</span><br><span class="line">沿着那岁月留下的路</span><br><span class="line">相会在如烟的昨天</span><br></pre></td></tr></table></figure>
+    <title>微光</title>
+    <url>/2023/07/03/20230703%20%E5%BE%AE%E5%85%89/</url>
+    <content><![CDATA[<p>最近两天突然想起<em>义达</em>的一首歌《微光》，歌名比较贴合我目前的状态，深陷泥潭但能看到微光。特别喜欢最后90秒的女声solo，能一直重复地听。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26084246&auto=0&height=66"></iframe>
 ]]></content>
-  </entry>
-  <entry>
-    <title>20230805《祈祷》</title>
-    <url>/2023/08/05/20230805%E3%80%8A%E7%A5%88%E7%A5%B7%E3%80%8B/</url>
-    <content><![CDATA[<p>一首歌梦回到童年时光，特别是王杰的声音，小时更多只关注歌声旋律好听，如今听来歌词还真的是祷告词啊！😜</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=301947&auto=0&height=66"></iframe>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">作词 : 翁炳荣</span><br><span class="line">作曲 : 传统</span><br><span class="line">编曲 : Ricky Ho</span><br><span class="line">作词：翁炳荣</span><br><span class="line">作曲：日本古曲</span><br><span class="line"></span><br><span class="line">女：让我们敲希望的钟啊</span><br><span class="line">多少祈祷在心中</span><br><span class="line">男：让大家看不到失败</span><br><span class="line">叫成功永远在</span><br><span class="line">女：让地球忘记了转动啊</span><br><span class="line">四季少了夏秋冬</span><br><span class="line">男：让宇宙关不了天窗</span><br><span class="line">叫太阳不西沉</span><br><span class="line"></span><br><span class="line">男：让欢喜代替了哀愁啊</span><br><span class="line">微笑不会再害羞</span><br><span class="line">女：让时光懂得去倒流</span><br><span class="line">叫青春不开溜</span><br><span class="line">男：让贫穷开始去逃亡啊</span><br><span class="line">快乐健康留四方</span><br><span class="line">女：让世界找不到黑暗</span><br><span class="line">幸福像花开放</span><br><span class="line"></span><br><span class="line">合：让我们敲希望的钟啊</span><br><span class="line">多少祈祷在心中</span><br><span class="line">让大家看不到失败</span><br><span class="line">叫成功永远在</span><br><span class="line">让大家看不到失败</span><br><span class="line">叫成功永远在</span><br></pre></td></tr></table></figure>
-]]></content>
+      <tags>
+        <tag>music</tag>
+      </tags>
   </entry>
   <entry>
     <title>小级别海龟交易方法</title>
@@ -229,74 +202,6 @@
 ]]></content>
       <tags>
         <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>马克的金玉良言</title>
-    <url>/2023/08/05/20230805%20%E9%A9%AC%E5%85%8B%E7%9A%84%E9%87%91%E7%8E%89%E8%89%AF%E8%A8%80/</url>
-    <content><![CDATA[<p>这就是为什么这个行业与修行无异的原因，因为最重要的是修心，不能更赞同他的良言了。<br>
-<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E9%87%91%E8%9E%8D%E4%B8%8E%E6%8A%95%E8%B5%84/%E9%A9%AC%E5%85%8B%E7%B1%B3%E5%8B%92%E7%BB%B4%E5%B0%BC20230805113544.png" alt=""></p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>青泽交易心得分享</title>
-    <url>/2023/08/10/20230810%20%E9%9D%92%E6%B3%BD%E4%BA%A4%E6%98%93%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<p>挺深刻的心得、心法分享，遵循他讲的心法随后努力找到一种适合自己性格的方法策略是交易成功的不二法门。</p>
-<p><a href="https://www.bilibili.com/video/av317072693/"></a></p>
-<iframe src="//player.bilibili.com/player.html?aid=317072693&cid=1229138217&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-  </entry>
-  <entry>
-    <title>100%坚信价格</title>
-    <url>/2023/08/11/20230811%20100-%E5%9D%9A%E4%BF%A1%E4%BB%B7%E6%A0%BC/</url>
-    <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/20230811162356%E4%BB%8A%E5%A4%A9%E6%82%B2%E6%83%A8%E7%9A%84%E8%82%A1%E8%84%82.png" alt="今天的股指"></p>
-<p>上图是今天的股指（4461家跌，只有535家涨），很久没这么惨了。虽然今天有点幸运，因为持仓的股票位列这535之中，但还是对自己有点生气，原本按自己定的策略操作可以做得更好的，每每少拿一个点的收益都是对资金曲线成长的巨大抑制。</p>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/20230811162458%E7%94%98%E6%9D%8E%E8%8D%AF%E4%B8%9A%E4%BB%8A%E5%A4%A960%E5%88%86%E9%92%9FK%E7%BA%BF%E5%9B%BE.png" alt=""></p>
-<p>上图为我持仓的“甘李药业”的60分钟K线图，按照我之前给自己定下的操作策略，在42.84价格左右（当前60分钟前15分钟不止跌反弹的话）我应该卖出至少1/2~3/4仓位的，如此的话不至于在收盘时又将大部分盈利都回吐了。当时心里想着既然前一根K线有长下影线，那预计下方支撑力度应该挺得住的，可以等等，结果就是股价又下到了更低位将清仓的阻力又给提升了，心里想着既然都到这个价位了干脆就在“第二道防护网”再做必要的清仓吧，事实证明还是得充分信任股价本身反映出的信息，而不应该充分信任自己的分析与判断。</p>
-<p>这个卖出点应该是我的第一道防护网，我应该在接下来的每一次交易中坚定地使用，使之能有效地销蚀掉我大部分的风险。</p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>今天读克罗的期货交易策略</title>
-    <url>/2023/08/18/20230818%20%E4%BB%8A%E5%A4%A9%E8%AF%BB%E5%85%8B%E7%BD%97%E7%9A%84%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5/</url>
-    <content><![CDATA[<p>傍晚始看了近50页，能感觉到作者挺有水平，看得也轻松、惬意。有点期货版《炒股的智慧》的意思。</p>
-<p><a href="https://pan.baidu.com/s/1VsnIVeAxJjNid7kUfoRrCw?pwd=rxuc">《克罗谈期货交易策略》百度网盘</a> 提取码: rxuc</p>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/20230818_%E3%80%8A%E5%85%8B%E7%BD%97%E8%B0%88%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5%E3%80%8B/20230818230350%E3%80%8A%E5%85%8B%E7%BD%97%E8%B0%88%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5%E3%80%8B.png" alt=""></p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>能操作2分钟级别的期货么</title>
-    <url>/2023/08/20/20230820%20%E8%83%BD%E6%93%8D%E4%BD%9C2%E5%88%86%E9%92%9F%E7%BA%A7%E5%88%AB%E7%9A%84%E6%9C%9F%E8%B4%A7%E4%B9%88/</url>
-    <content><![CDATA[<p>就如下图的橡胶商品期货K线图2分钟级别而言，在实操能跟上的情况下，刨去双向交易费用，稳定赢利应该不是问题！而且这种小级别的话也相对不那么挑剔品种。</p>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E6%A9%A1%E8%83%B62401%E6%9C%9F%E8%B4%A720230820171246.png" alt=""></p>
-]]></content>
-      <tags>
-        <tag>trade</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>可以抛弃100%配列键盘了</title>
-    <url>/2023/07/03/20230703%20%E5%8F%AF%E4%BB%A5%E6%8A%9B%E5%BC%83100-%E9%85%8D%E5%88%97%E9%94%AE%E7%9B%98%E4%BA%86/</url>
-    <content><![CDATA[<p>原来觉得必须得是104/108的才完整、才顺手，习惯了98布局后觉得也是蛮香，把数字键盘区锁住当功能键与方向键使，可以很快适应盲打。特意备了两把，一把“G红pro”线性轴与另一把大段落“冰魄”轴。</p>
-<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/IMG_20230629_120713R_v98pro%E9%94%AE%E7%9B%98.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt="V98Pro"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>微光</title>
-    <url>/2023/07/03/20230703%20%E5%BE%AE%E5%85%89/</url>
-    <content><![CDATA[<p>最近两天突然想起<em>义达</em>的一首歌《微光》，歌名比较贴合我目前的状态，深陷泥潭但能看到微光。特别喜欢最后90秒的女声solo，能一直重复地听。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26084246&auto=0&height=66"></iframe>
-]]></content>
-      <tags>
-        <tag>music</tag>
       </tags>
   </entry>
   <entry>
@@ -362,6 +267,20 @@
 ]]></content>
   </entry>
   <entry>
+    <title>《情意结》</title>
+    <url>/2023/07/11/20230711%E3%80%8A%E6%83%85%E6%84%8F%E7%BB%93%E3%80%8B/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/75maXf7tWxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>“為何每次早餐 仍然魂離魄散 原來 那朝分手都要啜泣中上班 明明能夠過得這關 贏回旁人盛讚 原來 頑強自愛這樣難 ……”，樸素簡單的歌詞自己卻覺得寫得是那麼好，也許是因為人大多都吃過愛情中的那种痛彻心扉的痛苦与苦澀，听歌也如感同身受。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>喜欢的《哥德堡变奏曲》版本</title>
+    <url>/2023/07/25/20230725%20%E5%96%9C%E6%AC%A2%E7%9A%84%E3%80%8A%E5%93%A5%E5%BE%B7%E5%A0%A1%E5%8F%98%E5%A5%8F%E6%9B%B2%E3%80%8B%E7%89%88%E6%9C%AC/</url>
+    <content><![CDATA[<p>听过几个版本，目前相对最喜欢的就这个版本了，朱晓玫/郎朗/古尔德的次之。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=92242137&auto=0&height=430"></iframe>
+]]></content>
+  </entry>
+  <entry>
     <title>发际线——男人的痛</title>
     <url>/2023/07/26/20230726%20%E5%8F%91%E9%99%85%E7%BA%BF%E2%80%94%E2%80%94%E7%94%B7%E4%BA%BA%E7%9A%84%E7%97%9B/</url>
     <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E6%97%A5%E5%B8%B8/%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7/20230726_161010R%E9%9D%9E%E9%82%A3%E9%9B%84%E8%83%BA%E7%89%87.jpg?x-oss-process=image/auto-orient,1/resize,p_80/quality,q_90" alt=""></p>
@@ -376,10 +295,13 @@
 ]]></content>
   </entry>
   <entry>
-    <title>喜欢的《哥德堡变奏曲》版本</title>
-    <url>/2023/07/25/20230725%20%E5%96%9C%E6%AC%A2%E7%9A%84%E3%80%8A%E5%93%A5%E5%BE%B7%E5%A0%A1%E5%8F%98%E5%A5%8F%E6%9B%B2%E3%80%8B%E7%89%88%E6%9C%AC/</url>
-    <content><![CDATA[<p>听过几个版本，目前相对最喜欢的就这个版本了，朱晓玫/郎朗/古尔德的次之。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=92242137&auto=0&height=430"></iframe>
+    <title>跟着你到天边</title>
+    <url>/2023/07/25/20230725%E8%B7%9F%E7%9D%80%E4%BD%A0%E5%88%B0%E5%A4%A9%E8%BE%B9/</url>
+    <content><![CDATA[<p>“容颜变 岁月迁 心中的温情永不减 跟着你 到天边 相会在如烟的昨天……”</p>
+<p>好听的歌曲，真的是一耳朵就喜欢上，这首歌就是这样。</p>
+<p>我的感性又敏感的性格最听不得这样子的歌，太容易伤感，没一会就把自己感动得热泪盈眶。但是电影与歌曲都是杰作，值得一看再看。我常说好电影离不开好音乐，否则也就担不上好电影的名头，吴青峰把这世间最美好的爱情唱出来了。腾格尔也翻唱过这首，但我听着实在没有共情，歌手如演员一样，不同的演员演同一段台词给观众的感受也是不一样的。大家最近好像都在欣赏周琛的类女声唱法，我不太喜欢，偶尔听一两次还好多了便容易审美疲劳，但吴青峰的唱腔我是很喜欢的，总觉得能表达出更细腻的情感，而这种感觉是大多男歌手都表现不出来的，有点那梅兰芳扮花旦的感觉。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28546507&auto=1&height=66"></iframe>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">作词 : 陈其钢</span><br><span class="line">作曲 : 陈其钢</span><br><span class="line">编曲 : 林暐哲</span><br><span class="line">制作人 : 林暐哲</span><br><span class="line">昨天的身影在眼前</span><br><span class="line">昨天的欢笑响耳边</span><br><span class="line">无声的岁月飘然去</span><br><span class="line">心中的温情永不减</span><br><span class="line"></span><br><span class="line">跟着你 走到天边</span><br><span class="line">挽着手 直到永远</span><br><span class="line">沿着那岁月留下的路</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">容颜变 岁月迁</span><br><span class="line">心中的温情永不减</span><br><span class="line">跟着你 到天边</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">容颜变 岁月迁</span><br><span class="line">心中的温情永不减</span><br><span class="line">跟着你 到天边</span><br><span class="line">相会在如烟的昨天</span><br><span class="line"></span><br><span class="line">跟着你 走到天边</span><br><span class="line">挽着手 直到永远</span><br><span class="line">沿着那岁月留下的路</span><br><span class="line">相会在如烟的昨天</span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
   <entry>
@@ -403,11 +325,89 @@
       </tags>
   </entry>
   <entry>
+    <title>马克的金玉良言</title>
+    <url>/2023/08/05/20230805%20%E9%A9%AC%E5%85%8B%E7%9A%84%E9%87%91%E7%8E%89%E8%89%AF%E8%A8%80/</url>
+    <content><![CDATA[<p>这就是为什么这个行业与修行无异的原因，因为最重要的是修心，不能更赞同他的良言了。<br>
+<img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E9%87%91%E8%9E%8D%E4%B8%8E%E6%8A%95%E8%B5%84/%E9%A9%AC%E5%85%8B%E7%B1%B3%E5%8B%92%E7%BB%B4%E5%B0%BC20230805113544.png" alt=""></p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>20230805《祈祷》</title>
+    <url>/2023/08/05/20230805%E3%80%8A%E7%A5%88%E7%A5%B7%E3%80%8B/</url>
+    <content><![CDATA[<p>一首歌梦回到童年时光，特别是王杰的声音，小时更多只关注歌声旋律好听，如今听来歌词还真的是祷告词啊！😜</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=301947&auto=0&height=66"></iframe>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">作词 : 翁炳荣</span><br><span class="line">作曲 : 传统</span><br><span class="line">编曲 : Ricky Ho</span><br><span class="line">作词：翁炳荣</span><br><span class="line">作曲：日本古曲</span><br><span class="line"></span><br><span class="line">女：让我们敲希望的钟啊</span><br><span class="line">多少祈祷在心中</span><br><span class="line">男：让大家看不到失败</span><br><span class="line">叫成功永远在</span><br><span class="line">女：让地球忘记了转动啊</span><br><span class="line">四季少了夏秋冬</span><br><span class="line">男：让宇宙关不了天窗</span><br><span class="line">叫太阳不西沉</span><br><span class="line"></span><br><span class="line">男：让欢喜代替了哀愁啊</span><br><span class="line">微笑不会再害羞</span><br><span class="line">女：让时光懂得去倒流</span><br><span class="line">叫青春不开溜</span><br><span class="line">男：让贫穷开始去逃亡啊</span><br><span class="line">快乐健康留四方</span><br><span class="line">女：让世界找不到黑暗</span><br><span class="line">幸福像花开放</span><br><span class="line"></span><br><span class="line">合：让我们敲希望的钟啊</span><br><span class="line">多少祈祷在心中</span><br><span class="line">让大家看不到失败</span><br><span class="line">叫成功永远在</span><br><span class="line">让大家看不到失败</span><br><span class="line">叫成功永远在</span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>青泽交易心得分享</title>
+    <url>/2023/08/10/20230810%20%E9%9D%92%E6%B3%BD%E4%BA%A4%E6%98%93%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<p>挺深刻的心得、心法分享，遵循他讲的心法随后努力找到一种适合自己性格的方法策略是交易成功的不二法门。</p>
+<p><a href="https://www.bilibili.com/video/av317072693/"></a></p>
+<iframe src="//player.bilibili.com/player.html?aid=317072693&cid=1229138217&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+  </entry>
+  <entry>
+    <title>100%坚信价格</title>
+    <url>/2023/08/11/20230811%20100-%E5%9D%9A%E4%BF%A1%E4%BB%B7%E6%A0%BC/</url>
+    <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/20230811162356%E4%BB%8A%E5%A4%A9%E6%82%B2%E6%83%A8%E7%9A%84%E8%82%A1%E8%84%82.png" alt="今天的股指"></p>
+<p>上图是今天的股指（4461家跌，只有535家涨），很久没这么惨了。虽然今天有点幸运，因为持仓的股票位列这535之中，但还是对自己有点生气，原本按自己定的策略操作可以做得更好的，每每少拿一个点的收益都是对资金曲线成长的巨大抑制。</p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/20230811162458%E7%94%98%E6%9D%8E%E8%8D%AF%E4%B8%9A%E4%BB%8A%E5%A4%A960%E5%88%86%E9%92%9FK%E7%BA%BF%E5%9B%BE.png" alt=""></p>
+<p>上图为我持仓的“甘李药业”的60分钟K线图，按照我之前给自己定下的操作策略，在42.84价格左右（当前60分钟前15分钟不止跌反弹的话）我应该卖出至少1/2~3/4仓位的，如此的话不至于在收盘时又将大部分盈利都回吐了。当时心里想着既然前一根K线有长下影线，那预计下方支撑力度应该挺得住的，可以等等，结果就是股价又下到了更低位将清仓的阻力又给提升了，心里想着既然都到这个价位了干脆就在“第二道防护网”再做必要的清仓吧，事实证明还是得充分信任股价本身反映出的信息，而不应该充分信任自己的分析与判断。</p>
+<p>这个卖出点应该是我的第一道防护网，我应该在接下来的每一次交易中坚定地使用，使之能有效地销蚀掉我大部分的风险。</p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>今天读克罗的期货交易策略</title>
+    <url>/2023/08/18/20230818%20%E4%BB%8A%E5%A4%A9%E8%AF%BB%E5%85%8B%E7%BD%97%E7%9A%84%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5/</url>
+    <content><![CDATA[<p>傍晚始看了近50页，能感觉到作者挺有水平，看得也轻松、惬意。有点期货版《炒股的智慧》的意思。</p>
+<p><a href="https://pan.baidu.com/s/1VsnIVeAxJjNid7kUfoRrCw?pwd=rxuc">《克罗谈期货交易策略》百度网盘</a> 提取码: rxuc</p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/20230818_%E3%80%8A%E5%85%8B%E7%BD%97%E8%B0%88%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5%E3%80%8B/20230818230350%E3%80%8A%E5%85%8B%E7%BD%97%E8%B0%88%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5%E3%80%8B.png" alt=""></p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>挺好看的漫步者MR4桌面监听音箱</title>
     <url>/2023/08/20/20230820%20%E6%8C%BA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%BC%AB%E6%AD%A5%E8%80%85MR4%E6%A1%8C%E9%9D%A2%E7%9B%91%E5%90%AC%E9%9F%B3%E7%AE%B1/</url>
     <content><![CDATA[<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E6%BC%AB%E6%AD%A5%E8%80%85MR4%E7%9B%91%E5%90%AC%E9%9F%B3%E7%AE%B120230820_173124R_1.jpg" alt=""></p>
 <p>10天体验下来，作为桌面音箱使用音质挺够用了，而且通体白色搭配黑色振膜一眼看着就喜欢上，若我是产品经理的话，我定会要求生产一款“纯净版”——将贴纸取代前面板上印刷了商标与字符的版本，有强迫症的朋友到手将贴纸一揭后整个前面板就完全“纯净”了，心里绝对美滋滋。唉，我就是这些强迫症患者之一。</p>
 <p>支架还没买暂时先用书本先垫着使用。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>能操作2分钟级别的期货么</title>
+    <url>/2023/08/20/20230820%20%E8%83%BD%E6%93%8D%E4%BD%9C2%E5%88%86%E9%92%9F%E7%BA%A7%E5%88%AB%E7%9A%84%E6%9C%9F%E8%B4%A7%E4%B9%88/</url>
+    <content><![CDATA[<p>就如下图的橡胶商品期货K线图2分钟级别而言，在实操能跟上的情况下，刨去双向交易费用，稳定赢利应该不是问题！而且这种小级别的话也相对不那么挑剔品种。</p>
+<p><img src="https://learn-and-live.oss-cn-beijing.aliyuncs.com/%E7%9B%B8%E5%86%8C/%E8%82%A1%E7%A5%A8%E6%88%AA%E5%9B%BE/%E6%A9%A1%E8%83%B62401%E6%9C%9F%E8%B4%A720230820171246.png" alt=""></p>
+]]></content>
+      <tags>
+        <tag>trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/01/01/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
 </search>
