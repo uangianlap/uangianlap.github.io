@@ -104,7 +104,7 @@
     <div class="lx-entry padding">
       <div>
         <p><img src="https://top10stockbroker.com/wp-content/uploads/2020/09/Advanced-Futures-Trader.jpg" alt=""></p>
-<p>  期货市场因为其保证金制度与T+0交易规则，相比股票市场环境一下就变得汹涌澎湃得多了，但同时也变有趣得多了。在期货上我虽然是新人，但股票上的交易经验在期货市场同样适用，反而因为期货更灵活的交易制度有如鱼得水的感觉，也可以更容易地制定出并执行令自己满意的交易策略。</p>
+<p>  期货市场因为其保证金制度与T+0交易规则，相比股票市场环境一下就变得汹涌澎湃得多了，但同时也变有趣得多了。期市上我虽然是新人，但股票上的交易经验在期货市场同样适用，反而因期货其更灵活的交易制度而感到如鱼得水，同时也可以更容易地去制定并执行令自己满意的交易策略。</p>
 <p><em>说几项自己领悟并觉得重要的规则，遵守它们并严格去执行那么你在期货市场应该不致于会沦为“九死一生”里的九了。</em><p></p>
 <ol>
 <li class="lvl-3">
@@ -114,7 +114,7 @@
 <p><strong>绝不手拿亏损的合约。</strong></p>
 </li>
 <li class="lvl-3">
-<p><strong>开仓5分钟价格没有往好的方向大幅运动，则以对自己最好的价格立即退出。</strong></p>
+<p><strong>开仓5分钟价格没有往好的方向大幅运动，则以对自己最有利的价格立即退出。</strong></p>
 </li>
 <li class="lvl-3">
 <p><strong>有一个在数学概率（胜率、赢亏比）上有优势的交易策略。</strong></p>
@@ -237,7 +237,26 @@
 }());
 </script>
 <script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/js/local.search.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4.18/dist/Valine.min.js"></script>
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'q8LGra4GGIdzO1kWxUFyOdF1-gzGzoHsz',
+    appKey: 'KLFK1thlTbUTsyhmall2XGYq',
+    placeholder: '此处留言',
+    avatar: 'identicon',
+    meta: guest,
+    pageSize: '10' || 10,
+    lang: 'zh-cn' || 'zh-cn'
+  });
+</script>
 
 </body>
 </html>
